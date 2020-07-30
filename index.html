@@ -222,7 +222,7 @@
 			document.getElementById('libgeo').innerHTML = acv_select.properties.nom_acv+" ("+acv_select.properties.id_dep+")";
 			document.getElementById('region').innerHTML = "Région "+acv_select.properties.id_reg;
 			
-			if (acv_select.properties.fiche_projet=="oui") {document.getElementById('projet').innerHTML = "Projet de cœur de ville en cours : <br/><a href=\'fiches_projets/ficheprojet_"+acv_select.properties.id_acv+".pdf/' target=\'_blank\' style=\'text-decoration:none; color:#ffc20e\'><strong>"+acv_select.properties.nom_projet+"</strong></a>";}
+			if (acv_select.properties.fiche_projet=="oui") {document.getElementById('projet').innerHTML = "Projet de cœur de ville en cours : <br/><a href=\'fiches_projets/ficheprojet_"+acv_select.properties.id_acv+".pdf' target=\'_blank\' style=\'text-decoration:none; color:#ffc20e\'><strong>"+acv_select.properties.nom_projet+"</strong></a>";}
 			else {document.getElementById('projet').innerHTML = "";}
 		}	
 		

@@ -1,0 +1,48 @@
+		body {
+            padding: 0;
+            margin-right: auto;
+			margin-left:auto;
+			}
+
+        html, body, #mapid {
+            height: 100%;
+            font: 10pt "Marianne", Arial, Helvetica, sans-serif;
+			color: #1d1d1b;
+			}
+
+		#bloc_intro {display: block;}
+		#bloc_fiche {display: none;}
+		
+		.bloc{
+			width:95%;
+			}
+		
+        .standard {
+            padding-left:10px;
+			em:1.2;
+			}
+		
+		strong{
+			color:#d11558;
+			em:1.6;
+			Font-Weight: Bold;
+			}
+		
+		h1{
+			em:2;
+			color:#fab511;
+			}
+	
+		h2{
+			em:1.8;
+			color:#1d1d1b;
+			padding-top:25px;
+			}
+		
+		.style_tooltips {
+		em:0.7;
+		font-weight: bold;
+		color: #d11558;
+		background-color: #fdece3;
+		margin: -20px 0px;
+		}

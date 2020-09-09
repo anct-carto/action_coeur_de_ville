@@ -38,8 +38,8 @@
 				<div class="bloc" id="bloc_intro">
 					<div><img src="img/logo_acv_max.png" style="max-width:60%; padding:25px;" /></div>
 					<h1>222 territoires bénéficiaires</h1>
-					<p class="standard"><img src="img/pictos_checked_off.png" style="vertical-align:center;width:20px;padding:0px 10px;"  />Ville retenue : contrat signé</p>
-					<p class="standard"><img src="img/pictos_unchecked_off.png" style="vertical-align:center;width:20px;padding:0px 10px;"  />Ville retenue : contrat non signé</p>
+					<p class="standard"><img src="img/pictos_checked_off.png" style="vertical-align:center;width:20px;padding:0px 10px;"  />Ville ACV : voir la fiche projet</p>
+					<p class="standard"><img src="img/pictos_unchecked_off.png" style="vertical-align:center;width:20px;padding:0px 10px;"  />Ville ACV</p>
 					<h2>Agir sur les centres-villes au service des territoires </h2>
 					<p class="standard">Le plan « Action Cœur de Ville » est <strong>un grand plan d’investissement public sur cinq ans</strong> (2018-2022) à destination des 222 villes intermédiaires qui structurent le territoire national. Il cible plus spécifiquement leurs centres-villes, qui rayonnent sur de larges bassins de vie.</p>
 					<p class="standard">A des degrés divers, ces territoires sont confrontés à la dévitalisation de leurs centres, à la mesure du déclin démographique, de la dégradation de l’offre d’habitat et de la fuite des activités commerciales en périphérie notamment. « Action Cœur de Ville » apporte <strong>une réponse globale et transversale</strong>, à partir d’un projet porté par la collectivité, qui doit se construire autour de <strong>cinq axes :</p>
@@ -68,9 +68,10 @@
         </div>
     </div>
 
+	<!-- Bloc de la carte -->
 	<div id="mapid" class="sidebar-map"></div>
 	
-     <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"></script>
     <script src="https://turbo87.github.io/sidebar-v2/js/leaflet-sidebar.js"></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
 	<script type="text/javascript" src="data/masque.js"></script>
@@ -96,7 +97,9 @@
 		sidebar.open('home');
 
 		//Ajout des données drive
-		var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1NTq-TiVDtGPsjytPyVxul6lD39p13GWAZQn0stxAyxM/edit?usp=sharing';
+		//var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1NTq-TiVDtGPsjytPyVxul6lD39p13GWAZQn0stxAyxM/edit?usp=sharing'; // compte mm
+		var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1Qz6_Ogvz5PQ24Re3J5407NQu7N6_1aSWD3O5TCbrM1o/edit?usp=sharing'; // compte acv
+		
 		
 		function init() {
 			Tabletop.init({ 
@@ -250,7 +253,5 @@
    </script>
 	
 </body>
-
-
 
 </html>

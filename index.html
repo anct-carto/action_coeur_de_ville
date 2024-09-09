@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>ACV</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <link rel="shortcut icon" type="image/png" href="img/logo_acv2.png"/>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/ico"/>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
@@ -22,7 +22,7 @@
 
         html, body, #mapid {
             height: 100%;
-            font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+            font: 10pt "Marianne";
 			color: #1d1d1b;
         }
 
@@ -39,15 +39,22 @@
 			display: none;
 		}
 		
+		.TooltipsNAT {
+		em:0.7;
+		font-weight: bold;
+		color: #ffa40e;
+		background-color: #fdece3;
+		}
+		
 		strong{
-		color:#d11558;
+		color:black;
 		em:1.6;
 		Font-Weight: Bold;
 		}
 		
 		h1{
 			em:2;
-			color:#fab511;
+			color:#E12A5C;
 		}
 	
 		h2{
@@ -65,9 +72,9 @@
         <!-- Nav tabs -->
         <div class="sidebar-tabs">
             <ul role="tablist">
-                <li><a href="#home" role="tab" id="logo_acv"><i class="fa"><img src="img/logo_acv2.png" style="width:30px;padding:5px"  /></i></a></li>
-                <li><a href="http://www.cget.gouv.fr/dossiers/action-coeur-de-ville" role="tab" target="_blank" title="Site officiel"><i class="fa fa-home"></i></a></li>
-				<li><a href="https://rawgit.com/cget-carto/c2v/master/img/ACV_CARTO_sept18.jpg" role="tab" target="_blank" title="Télécharger la carte"><i class="fa fa-download"></i></a></li>
+                <li><a href="#home" role="tab" id="accueil"><i class="fa fa-home"></i></a></li>
+                <li><a href="https://agence-cohesion-territoires.gouv.fr/action-coeur-de-ville-42" role="tab" target="_blank" title="Site officiel"><i class="fa fa-info-circle"></i></a></li>
+				<li><a href="https://cartotheque.anct.gouv.fr/media/record/eyJpIjoiZGVmYXVsdCIsIm0iOm51bGwsImQiOjEsInIiOjEyM30=/" role="tab" target="_blank" title="Télécharger la carte"><i class="fa fa-download"></i></a></li>
             </ul>
         </div>
 
@@ -80,30 +87,34 @@
                 </h1>
 				
 				<div class="presentation" id="defaut">
-					<div><img src="img/logo_acv_420.png" style="max-width:60%; padding:25px;" /></div>
-					<h1>222 territoires bénéficiaires</h1>
-					<p class="lorem"><img src="img/pictos_checked_off.png" style="vertical-align:center;width:20px;padding:0px 10px;"  />Ville retenue : contrat signé</p>
-					<p class="lorem"><img src="img/pictos_unchecked_off.png" style="vertical-align:center;width:20px;padding:0px 10px;"  />Ville retenue : contrat non signé</p>
+					<div><img src="img/LOGO-ANCT+Marianne.png" style="max-width:60%; padding:20px;" /></div>
+					<h1>245 communes sur 232 territoires bénéficiaires</h1>
+					<!-- <p class="lorem"><img src="img/pictos_checked_off.png" style="vertical-align:center;width:20px;padding:0px 10px;"  />Ville retenue : contrat signé</p>
+					<p class="lorem"><img src="img/pictos_unchecked_off.png" style="vertical-align:center;width:20px;padding:0px 10px;"  />Ville retenue : contrat non signé</p> -->
 					<h2>Agir sur les centres-villes au service des territoires </h2>
-					<p class="lorem">Le plan « Action Cœur de Ville » est <strong>un grand plan d’investissement public sur cinq ans</strong> (2018-2022) à destination des 222 villes intermédiaires qui structurent le territoire national. Il cible plus spécifiquement leurs centres-villes, qui rayonnent sur de larges bassins de vie.</p>
-					<p class="lorem">A des degrés divers, ces territoires sont confrontés à la dévitalisation de leurs centres, à la mesure du déclin démographique, de la dégradation de l’offre d’habitat et de la fuite des activités commerciales en périphérie notamment. « Action Cœur de Ville » apporte <strong>une réponse globale et transversale</strong>, à partir d’un projet porté par la collectivité, qui doit se construire autour de <strong>cinq axes :</p>
-					<p class="lorem">1. De la réhabilitation à la restructuration : vers une offre attractive de l’habitat en centre-ville</p>
+					<p class="lorem">Le plan « Action Cœur de Ville » répond <strong>à une double ambition : améliorer les conditions de vie des habitants</strong> des villes moyennes et conforter le rôle de moteur de ces villes dans dans le développement du territoire.</p>
+					<p class="lorem">A des degrés divers, ces territoires sont confrontés à la dévitalisation de leurs centres, à la mesure du déclin démographique, de la dégradation de l’offre d’habitat et de la fuite des activités commerciales en périphérie notamment. Élaboré en concertation avec les élus et les acteurs économiques des territoires, le plan Action cœur de ville vise à faciliter et à soutenir le travail des collectivités locales, à inciter les acteurs du logement et de l’urbanisme à réinvestir les centres-villes, à favoriser le maintien ou l’implantation d’activités en cœur de ville afin d’améliorer les conditions de vie dans les villes moyennes. « Action Cœur de Ville » apporte <strong>une réponse globale et transversale</strong>, à partir d’un projet porté par la collectivité, qui doit se construire autour de <strong>cinq axes :</p>
+					<p class="lorem">1. De la réhabilitation à la restructuration : vers une offre attractive de l'habitat</p>
 					<p class="lorem">2. Favoriser un développement économique et commercial équilibré</p>
-					<p class="lorem">3. Développer l’accessibilité, la mobilité et les connexions</p>
-					<p class="lorem">4. Mettre en valeur les formes urbaines, l’espace public et le patrimoine</p>
-					<p class="lorem">5. Fournir l’accès aux équipements, services publics, à l’offre culturelle et de loisirs</p></strong>
+					<p class="lorem">3. Développer l’accessibilité et les mobilités décarbonées</p>
+					<p class="lorem">4. Aménager durablement l'espace urbain et mettre en valeur le patrimoine architectural et paysager</p>
+					<p class="lorem">5. Constituer un socle de services dans chaque ville</p></strong>
 					<h2>Un plan «sur-mesure» décentralisé et déconcentré</h2>
 					<p class="lorem"><strong>« Action Cœur de Ville » va jusqu’au bout de la logique de décentralisation et de déconcentration</strong>. Le soutien de l’État et des partenaires nationaux se formalise par la conclusion d’une convention-cadre pluriannuelle avec la commune et son intercommunalité.<br/><strong>Le cadre partenarial</strong> permet d’inclure à cette convention tout acteur public ou privé pouvant mettre ses moyens ou son expertise au service du cœur de ville : établissement public foncier, agence d’urbanisme, bailleur social, associations, entreprises…</p>
 					<p class="lorem"><strong>Les projets sont conçus par les collectivités</strong>, qui sollicitent les financements auprès des services déconcentrés de l’Etat et des partenaires, réunis dans un comité de projet présidé par le maire.</p>
 					<p class="lorem"><strong>Cette méthode «sur-mesure» permet d’accompagner les collectivités à leur rythme</strong>, de mettre en œuvre les actions déjà matures lors de la conclusion de la convention et de réaliser en même temps toutes les études nécessaires au projet de revitalisation du centre-ville.</p>
+				
+				<br/>
+					<p><i>Sources : <a href="https://agence-cohesion-territoires.gouv.fr/" style="text-decoration:none;" target="_blanck ">ANCT</a> • Réalisation : <a href="https://cartotheque.anct.gouv.fr/cartes" style="text-decoration:none;" target="_blanck ">Cartographie PADT ANCT</a> • Dernière mise à jour : 01 août 2024</i></p>
+				
 				</div>
 
 				<div id="popup">
 					<h1 id="libgeo"></h1>
 					<p class="lorem" id="region"></p>
 					<p class="lorem" id="signature"></p>
-					<p class="lorem" id="action"></p>					
-					<p class="lorem" id="projet"></p>
+					<p class="lorem" id="actionsEnCours"></p>					
+					<p class="lorem" id="actionsLivrees"></p>
 				</div>
 				
             </div>
@@ -117,7 +128,8 @@
 
 
 	<div id="mapid" class="sidebar-map"></div>
-	
+
+
      <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"></script>
     <script src="https://turbo87.github.io/sidebar-v2/js/leaflet-sidebar.js"></script>
 	<script type="text/javascript" src="data/masque.js"></script>
@@ -159,16 +171,16 @@
 			checkedIcon_on = new LeafIcon({iconUrl: 'img/pictos_checked_on.png', iconSize: [33,33], iconAnchor:[16.5,16.5]});
 
 		// Choix du fond de carte 
-		var GeoportailFrance_parcels = L.tileLayer('https://wxs.ign.fr/{apikey}/geoportail/wmts?REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0&STYLE={style}&TILEMATRIXSET=PM&FORMAT={format}&LAYER=CADASTRALPARCELS.PARCELS&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}', {
-		attribution: '<a target="_blank" href="https://www.cget.gouv.fr/ressources/cartotheque">CGET service carto</a>',
-		//bounds: [[-75, -180], [81, 180]],
-		//minZoom: 5,
-		//maxZoom: 10,
-		apikey: 'choisirgeoportail',
-		format: 'image/png',
-		style: 'bdparcellaire'
-		});
-		GeoportailFrance_parcels.addTo(map);
+		// var GeoportailFrance_parcels = L.tileLayer('https://wxs.ign.fr/{apikey}/geoportail/wmts?REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0&STYLE={style}&TILEMATRIXSET=PM&FORMAT={format}&LAYER=CADASTRALPARCELS.PARCELS&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}', {
+		// attribution: '<a target="_blank" href="https://cartotheque.anct.gouv.fr/cartes">Cartographie PADT ANCT</a>',
+		// //bounds: [[-75, -180], [81, 180]],
+		// //minZoom: 5,
+		// //maxZoom: 10,
+		// apikey: 'choisirgeoportail',
+		// format: 'image/png',
+		// style: 'bdparcellaire'
+		// });
+		// GeoportailFrance_parcels.addTo(map);
 		/*var BasemapAT_basemap = L.tileLayer('https://maps{s}.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.{format}', {
 		maxZoom: 20,
 		attribution: 'Datenquelle: <a href="https://www.basemap.at">basemap.at</a>',
@@ -208,7 +220,7 @@
 		Departements = L.geoJSON(JS_dep, {color: "#ffffff", weight: 1, opacity: 1, fillOpacity: 0}).addTo(map);
 		
 		
-		var test;
+		var test = null;
 		
 		//Action au clic sur un marker
 		function infos(e) {
@@ -216,37 +228,58 @@
 			if (document.getElementById('sidebar').classList.contains('collapsed')){
 				sidebar.open('home');
 				if (map.getZoom() < 8) {map.setView([46.5, -3], 6);}
-				}
-			
-			//Modification de l'icone
-			if(test) {
-				if (test.feature.properties.categorie == "sig"){test.setIcon(checkedIcon_off);}
-				else {test.setIcon(uncheckedIcon_off);}
 			}
+			if (test) {
+        	// Restaurer l'icône du dernier marker cliqué
+        		if (test.feature.properties.type == "Point") {
+          		  test.setIcon(checkedIcon_on);
+       		 } else {
+				test.setIcon(checkedIcon_off);
+      		  }
+    		}
 			test = e.target;
-			if (test.feature.properties.categorie == "sig"){test.setIcon(checkedIcon_on);}
-			else {test.setIcon(uncheckedIcon_on);}
-			
+    
+			// Changer l'icône du nouveau marker cliqué
+			if (test.feature.properties.type == "Point") {
+				test.setIcon(checkedIcon_off);
+			} else {
+				test.setIcon(checkedIcon_on);
+			}
+
 			//Remplissage de la popup
 			document.getElementById('popup').style.display = "block";
 			document.getElementById('defaut').style.display = "none";
-			document.getElementById('libgeo').innerHTML = test.feature.properties.NOM_COM+" ("+test.feature.properties.dep+")";
-			document.getElementById('region').innerHTML = "Région "+test.feature.properties.NOM_REGION;
+			document.getElementById('libgeo').innerHTML = test.feature.properties.lib_com+" ("+test.feature.properties.insee_dep+")";
+			document.getElementById('region').innerHTML = "Région "+test.feature.properties.lib_reg;
 			
-			if (test.feature.properties.DATE_SIGN !== "indefini" && test.feature.properties.categorie == "sig" ) {
-				document.getElementById('signature').innerHTML = "Date de la signature : <strong>"+test.feature.properties.DATE_SIGN+"</strong>";
-				}
-			else {document.getElementById('signature').innerHTML = "";}
+			if (test.feature.properties.date_signature && test.feature.properties.date_signature !== "NA") {
+   		 	document.getElementById('signature').innerHTML = "Date de la signature : <strong>" + test.feature.properties.date_signature + "</strong>";
+			} else {document.getElementById('signature').innerHTML = "";}
 			
-			if (test.feature.properties.ACTION) {console.log(test.feature.properties.ACTION); document.getElementById('action').innerHTML = "<strong>"+test.feature.properties.ACTION+"</strong> actions matures engagées dès 2018";}
-			else {document.getElementById('action').innerHTML = "";}
+			if (test.feature.properties.actions_en_cours && test.feature.properties.actions_en_cours !== "NA") {
+    		document.getElementById('actionsEnCours').innerHTML = "Actions en cours : <strong>" + test.feature.properties.actions_en_cours + "</strong>";
+			} else {
+    		document.getElementById('actionsEnCours').innerHTML = "";
+			}
+
+			// Affichage des actions livrées si elles existent
+			if (test.feature.properties.actions_livrees && test.feature.properties.actions_livrees !== "NA") {
+				document.getElementById('actionsLivrees').innerHTML = "Actions livrées : <strong>" + test.feature.properties.actions_livrees + "</strong>";
+			} else {
+				document.getElementById('actionsLivrees').innerHTML = "";
+			}
+
 			
-			if (test.feature.properties.PROJET) {document.getElementById('projet').innerHTML = "Projet de cœur de ville en cours : <br/><a href=\'"+test.feature.properties.INTERNET+"/' target=\'_blank\' style=\'text-decoration:none; color:#ffc20e\'><strong>"+test.feature.properties.PROJET+"</strong></a>";}
-			else {document.getElementById('projet').innerHTML = "";}
+			// if (test.feature.properties.ACTION) {console.log(test.feature.properties.ACTION); document.getElementById('action').innerHTML = "<strong>"+test.feature.properties.ACTION+"</strong> actions matures engagées dès 2018";}
+			// else {document.getElementById('action').innerHTML = "";}
+			
+			// if (test.feature.properties.PROJET) {document.getElementById('projet').innerHTML = "Projet de cœur de ville en cours : <br/><a href=\'"+test.feature.properties.INTERNET+"/' target=\'_blank\' style=\'text-decoration:none; color:#ffc20e\'><strong>"+test.feature.properties.PROJET+"</strong></a>";}
+			// else {document.getElementById('projet').innerHTML = "";}
 		}
 		
 		var sidebar = L.control.sidebar('sidebar').addTo(map);
-		
+					sidebar.open('home');
+
 		
 		/*ACV = L.geoJSON(JS_coeurdeville, {
 				pointToLayer: function(feature, latlng) {
@@ -259,21 +292,27 @@
 				},
 		}).addTo(map)*/
 		
-		ACV_unchecked = L.geoJSON(JS_coeurdeville, {
-				pointToLayer: function(feature, latlng) {
-					return L.marker(latlng,{icon:uncheckedIcon_off}).on('click', function(e) {infos(e);})	
-					},
-				filter: function(feature, layer) {
-					return feature.properties.categorie == "non" || feature.properties.categorie == "ind" ;
-					}
-		}).addTo(map)
+		// ACV_unchecked = L.geoJSON(JS_coeurdeville, {
+		// 		pointToLayer: function(feature, latlng) {
+		// 			return L.marker(latlng,{icon:uncheckedIcon_off}).on('click', function(e) {infos(e);})	
+		// 			},
+		// 		filter: function(feature, layer) {
+		// 			return feature.properties.categorie == "non" || feature.properties.categorie == "ind" ;
+		// 			},
+		// 		onEachFeature : function(feature, layer) {
+		// 			layer.bindTooltip(feature.properties.NOM_COM, {className: 'TooltipsNAT', closeButton: false});
+		// 			}
+		// }).addTo(map)
 		
 		ACV_checked = L.geoJSON(JS_coeurdeville, {
 				pointToLayer: function(feature, latlng) {
 					return L.marker(latlng,{icon:checkedIcon_off}).on('click', function(e) {infos(e);})	
 					},
-				filter: function(feature, layer) {
-					return feature.properties.categorie == "sig" ;
+				// filter: function(feature, layer) {
+				// 	return feature.properties.categorie == "sig" ;
+				// 	},
+				onEachFeature : function(feature, layer) {
+					layer.bindTooltip(feature.properties.lib_com, {className: 'TooltipsNAT', closeButton: false});
 					}
 		}).addTo(map)
 				
@@ -292,7 +331,7 @@
 		});
 		
 		//Carte qui bouge à l'ouverture de la popup
-		document.getElementById("logo_acv").addEventListener("click", function(){
+		document.getElementById("accueil").addEventListener("click", function(){
 		document.getElementById('popup').style.display = "none";
 		document.getElementById('defaut').style.display = "block";
 		if(map.getZoom() < 8){

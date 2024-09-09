@@ -1,228 +1,4912 @@
-﻿var JS_coeurdeville = {
-"type": "FeatureCollection",
-"name": "Carte interactive 20180810",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "codgeo": "97105", "dep": "971", "reg2016": "01", "libgeo": "Basse-Terre", "libgeo_m": "BASSE-TERRE", "pop": 10787.0, "NOM_REGION": "Guadeloupe", "JUMELAGE": "NON", "NOM_COM": "Basse-terre", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -4.430197735412928, 45.056135423155879 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97120", "dep": "971", "reg2016": "01", "libgeo": "Pointe-à-Pitre", "libgeo_m": "POINTE-À-PITRE", "pop": 16261.0, "NOM_REGION": "Guadeloupe", "JUMELAGE": "OUI", "NOM_COM": "Pointe-à-Pitre + Les Abymes", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -4.099410706689208, 45.416734703959882 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97209", "dep": "972", "reg2016": "02", "libgeo": "Fort-de-France", "libgeo_m": "FORT-DE-FRANCE", "pop": 83651.0, "NOM_REGION": "Martinique", "JUMELAGE": "NON", "NOM_COM": "Fort-de-France", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -3.725185224495375, 44.044035993600779 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97213", "dep": "972", "reg2016": "02", "libgeo": "Le Lamentin", "libgeo_m": "LE LAMENTIN", "pop": 39926.0, "NOM_REGION": "Martinique", "JUMELAGE": "NON", "NOM_COM": "Le Lamentin", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -3.587611342729855, 44.041621714931054 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97302", "dep": "973", "reg2016": "03", "libgeo": "Cayenne", "libgeo_m": "CAYENNE", "pop": 55817.0, "NOM_REGION": "Guyane", "JUMELAGE": "NON", "NOM_COM": "Cayenne", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.338782511029594, 42.991554339642889 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97311", "dep": "973", "reg2016": "03", "libgeo": "Saint-Laurent-du-Maroni", "libgeo_m": "SAINT-LAURENT-DU-MARONI", "pop": 44169.0, "NOM_REGION": "Guyane", "JUMELAGE": "NON", "NOM_COM": "Saint-Joseph", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -3.558446615147523, 43.130733753526307 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97407", "dep": "974", "reg2016": "04", "libgeo": "Le Port", "libgeo_m": "LE PORT", "pop": 35653.0, "NOM_REGION": "Réunion", "JUMELAGE": "NON", "NOM_COM": "Le Port", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.729399600620873, 44.792591998037977 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97409", "dep": "974", "reg2016": "04", "libgeo": "Saint-André", "libgeo_m": "SAINT-ANDRÉ", "pop": 55900.0, "NOM_REGION": "Réunion", "JUMELAGE": "NON", "NOM_COM": "Saint-André", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.081754586029343, 44.799617974952113 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97412", "dep": "974", "reg2016": "04", "libgeo": "Saint-Joseph", "libgeo_m": "SAINT-JOSEPH", "pop": 37362.0, "NOM_REGION": "Réunion", "JUMELAGE": "NON", "NOM_COM": "Saintes", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.080697191925495, 44.281299740073102 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97416", "dep": "974", "reg2016": "04", "libgeo": "Saint-Pierre", "libgeo_m": "SAINT-PIERRE", "pop": 81583.0, "NOM_REGION": "Réunion", "JUMELAGE": "NON", "NOM_COM": "Saint-Omer", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "2 juillet 2018", "ACTION": "10", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.346627600023782, 44.285858911531086 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97607", "dep": "976", "reg2016": "06", "libgeo": "Dembeni", "libgeo_m": "DEMBENI", "pop": 10923.0, "NOM_REGION": "Mayotte", "JUMELAGE": "NON", "NOM_COM": "Dembéni", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.095263665535385, 45.490949670193125 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97608", "dep": "976", "reg2016": "06", "libgeo": "Dzaoudzi", "libgeo_m": "DZAOUDZI", "pop": 14311.0, "NOM_REGION": "Mayotte", "JUMELAGE": "OUI", "NOM_COM": "Dzaoudzi + Pamandzi", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -1.837770514275032, 45.614848673754601 ] } },
-{ "type": "Feature", "properties": { "codgeo": "97611", "dep": "976", "reg2016": "06", "libgeo": "Mamoudzou", "libgeo_m": "MAMOUDZOU", "pop": 57281.0, "NOM_REGION": "Mayotte", "JUMELAGE": "NON", "NOM_COM": "Mamoudzou", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.068884639702206, 45.590475410440405 ] } },
-{ "type": "Feature", "properties": { "codgeo": "77131", "dep": "77", "reg2016": "11", "libgeo": "Coulommiers", "libgeo_m": "COULOMMIERS", "pop": 14889.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Coulommiers", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "7", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.091030726558845, 48.812058694711141 ] } },
-{ "type": "Feature", "properties": { "codgeo": "28134", "dep": "28", "reg2016": "24", "libgeo": "Dreux", "libgeo_m": "DREUX", "pop": 31191.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Dreux", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "9 juillet 2018", "ACTION": "18", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.359897060921296, 48.748502672845547 ] } },
-{ "type": "Feature", "properties": { "codgeo": "78621", "dep": "78", "reg2016": "11", "libgeo": "Trappes", "libgeo_m": "TRAPPES", "pop": 31854.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Trappes", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.994128280156919, 48.775959563178979 ] } },
-{ "type": "Feature", "properties": { "codgeo": "61006", "dep": "61", "reg2016": "28", "libgeo": "Argentan", "libgeo_m": "ARGENTAN", "pop": 13968.0, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Argentan", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "6", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.013330184417686, 48.732273054997997 ] } },
-{ "type": "Feature", "properties": { "codgeo": "72154", "dep": "72", "reg2016": "52", "libgeo": "La Flèche", "libgeo_m": "LA FLÈCHE", "pop": 15025.0, "NOM_REGION": "Pays de la Loire", "JUMELAGE": "NON", "NOM_COM": "La Flèche + Sablé-sur-Sarthe", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "15 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.064899584991493, 47.689194789321384 ] } },
-{ "type": "Feature", "properties": { "codgeo": "61001", "dep": "61", "reg2016": "28", "libgeo": "Alençon", "libgeo_m": "ALENÇON", "pop": 26028.0, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Alençon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "9", "PROJET": "31, le Grand Projet", "categorie": "non", "INTERNET": "http:\/\/www.alencon.fr\/mon-cadre-de-vie\/grands-projets\/31-le-grand-projet\/" }, "geometry": { "type": "Point", "coordinates": [ 0.091770239386366, 48.431536113449908 ] } },
-{ "type": "Feature", "properties": { "codgeo": "28280", "dep": "28", "reg2016": "24", "libgeo": "Nogent-le-Rotrou", "libgeo_m": "NOGENT-LE-ROTROU", "pop": 10130.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Nogent-le-Routrou", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "13 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.804097347888062, 48.317243569476467 ] } },
-{ "type": "Feature", "properties": { "codgeo": "45155", "dep": "45", "reg2016": "24", "libgeo": "Gien", "libgeo_m": "GIEN", "pop": 14617.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Gien", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "12 juillet 2018", "ACTION": "2", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.665426104670999, 47.712180589644689 ] } },
-{ "type": "Feature", "properties": { "codgeo": "91223", "dep": "91", "reg2016": "11", "libgeo": "Étampes", "libgeo_m": "ÉTAMPES", "pop": 24503.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Étampes", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "2", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.137802794370984, 48.421780937579911 ] } },
-{ "type": "Feature", "properties": { "codgeo": "28085", "dep": "28", "reg2016": "24", "libgeo": "Chartres", "libgeo_m": "CHARTRES", "pop": 38728.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Chartres", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "13 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.505769733092665, 48.447094350752792 ] } },
-{ "type": "Feature", "properties": { "codgeo": "78517", "dep": "78", "reg2016": "11", "libgeo": "Rambouillet", "libgeo_m": "RAMBOUILLET", "pop": 25755.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Rambouillet", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.825996474691975, 48.653728258048368 ] } },
-{ "type": "Feature", "properties": { "codgeo": "77333", "dep": "77", "reg2016": "11", "libgeo": "Nemours", "libgeo_m": "NEMOURS", "pop": 13052.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Nemours", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "6", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.710971771114687, 48.259998334546303 ] } },
-{ "type": "Feature", "properties": { "codgeo": "45252", "dep": "45", "reg2016": "24", "libgeo": "Pithiviers", "libgeo_m": "PITHIVIERS", "pop": 9054.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Pithiviers", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.248979386499287, 48.180216761348426 ] } },
-{ "type": "Feature", "properties": { "codgeo": "45208", "dep": "45", "reg2016": "24", "libgeo": "Montargis", "libgeo_m": "MONTARGIS", "pop": 13997.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Montauban", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "9 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.737465015957965, 47.999367889829571 ] } },
-{ "type": "Feature", "properties": { "codgeo": "77186", "dep": "77", "reg2016": "11", "libgeo": "Fontainebleau", "libgeo_m": "FONTAINEBLEAU", "pop": 14637.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "OUI", "NOM_COM": "Fontainebleau + Avon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "12", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.681017868997365, 48.406497329719556 ] } },
-{ "type": "Feature", "properties": { "codgeo": "91174", "dep": "91", "reg2016": "11", "libgeo": "Corbeil-Essonnes", "libgeo_m": "CORBEIL-ESSONNES", "pop": 49373.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Corbeil-Essonnes", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "2", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.469321964005047, 48.603813081142683 ] } },
-{ "type": "Feature", "properties": { "codgeo": "91570", "dep": "91", "reg2016": "11", "libgeo": "Saint-Michel-sur-Orge", "libgeo_m": "SAINT-MICHEL-SUR-ORGE", "pop": 19896.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Saint-Malo", "AV_PUBLIC": "indefini", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "ind", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.312067673062397, 48.632291863032549 ] } },
-{ "type": "Feature", "properties": { "codgeo": "91228", "dep": "91", "reg2016": "11", "libgeo": "Évry", "libgeo_m": "ÉVRY", "pop": 53699.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Evry", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.440490100615789, 48.629353221043409 ] } },
-{ "type": "Feature", "properties": { "codgeo": "91021", "dep": "91", "reg2016": "11", "libgeo": "Arpajon", "libgeo_m": "ARPAJON", "pop": 10582.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Arpajon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.243892309884098, 48.590400743959712 ] } },
-{ "type": "Feature", "properties": { "codgeo": "77305", "dep": "77", "reg2016": "11", "libgeo": "Montereau-Fault-Yonne", "libgeo_m": "MONTEREAU-FAULT-YONNE", "pop": 18339.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Montereau-Fault-Yonne", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "4", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.961819440549258, 48.390063372864631 ] } },
-{ "type": "Feature", "properties": { "codgeo": "77288", "dep": "77", "reg2016": "11", "libgeo": "Melun", "libgeo_m": "MELUN", "pop": 40011.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Melun", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "16", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.657778075930552, 48.544800955734573 ] } },
-{ "type": "Feature", "properties": { "codgeo": "14366", "dep": "14", "reg2016": "28", "libgeo": "Lisieux", "libgeo_m": "LISIEUX", "pop": 20881.0, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Lisieux", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "25 septembre 2018", "ACTION": null, "PROJET": "Lisieux 2025", "categorie": "non", "INTERNET": "https:\/\/www.ville-lisieux.fr\/affichage.php?id=664&visu=1" }, "geometry": { "type": "Point", "coordinates": [ 0.238478290838734, 49.147323648966221 ] } },
-{ "type": "Feature", "properties": { "codgeo": "27229", "dep": "27", "reg2016": "28", "libgeo": "Évreux", "libgeo_m": "ÉVREUX", "pop": 49461.0, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Évreux", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "6 juillet 2018", "ACTION": "1", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.1413263293217, 49.019811179532425 ] } },
-{ "type": "Feature", "properties": { "codgeo": "27375", "dep": "27", "reg2016": "28", "libgeo": "Louviers", "libgeo_m": "LOUVIERS", "pop": 18251.0, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Louviers", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.153421120184108, 49.220635738948502 ] } },
-{ "type": "Feature", "properties": { "codgeo": "76259", "dep": "76", "reg2016": "28", "libgeo": "Fécamp", "libgeo_m": "FÉCAMP", "pop": 19344.0, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Fécamp", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "4 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.396063990480745, 49.752629809428825 ] } },
-{ "type": "Feature", "properties": { "codgeo": "78586", "dep": "78", "reg2016": "11", "libgeo": "Sartrouville", "libgeo_m": "SARTROUVILLE", "pop": 51747.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Sartrouville", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "1", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.174378428610326, 48.939654674896914 ] } },
-{ "type": "Feature", "properties": { "codgeo": "60057", "dep": "60", "reg2016": "32", "libgeo": "Beauvais", "libgeo_m": "BEAUVAIS", "pop": 54738.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Beauvais", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "11 juin 2018", "ACTION": "5", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.087149000270363, 49.436338334337321 ] } },
-{ "type": "Feature", "properties": { "codgeo": "78361", "dep": "78", "reg2016": "11", "libgeo": "Mantes-la-Jolie", "libgeo_m": "MANTES-LA-JOLIE", "pop": 44985.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "OUI", "NOM_COM": "Mantes-la-Jolie + Limay", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "13", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.694101212178432, 48.998375162575684 ] } },
-{ "type": "Feature", "properties": { "codgeo": "27681", "dep": "27", "reg2016": "28", "libgeo": "Vernon", "libgeo_m": "VERNON", "pop": 23951.0, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Vernon", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "2 juillet 2018", "ACTION": "18", "PROJET": "Cœur de ville 2020 ; Cœur de Seine 2020 ; Europan 13", "categorie": "sig", "INTERNET": "http:\/\/www.vernon27.fr\/grands-dossiers\/coeur-de-ville-2020\/" }, "geometry": { "type": "Point", "coordinates": [ 1.484702530626788, 49.087872812899455 ] } },
-{ "type": "Feature", "properties": { "codgeo": "78498", "dep": "78", "reg2016": "11", "libgeo": "Poissy", "libgeo_m": "POISSY", "pop": 36994.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Poissy", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "14", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.028145447215254, 48.923818180790555 ] } },
-{ "type": "Feature", "properties": { "codgeo": "78440", "dep": "78", "reg2016": "11", "libgeo": "Les Mureaux", "libgeo_m": "LES MUREAUX", "pop": 31647.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Lens + Liévin", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "22", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.914057992899486, 48.989006988859131 ] } },
-{ "type": "Feature", "properties": { "codgeo": "60612", "dep": "60", "reg2016": "32", "libgeo": "Senlis", "libgeo_m": "SENLIS", "pop": 15292.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Senlis", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "8", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.585809175014161, 49.211650699282195 ] } },
-{ "type": "Feature", "properties": { "codgeo": "95277", "dep": "95", "reg2016": "11", "libgeo": "Gonesse", "libgeo_m": "GONESSE", "pop": 26020.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Gonesse", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "23", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.456761214514223, 48.986293728764473 ] } },
-{ "type": "Feature", "properties": { "codgeo": "60175", "dep": "60", "reg2016": "32", "libgeo": "Creil", "libgeo_m": "CREIL", "pop": 34922.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Creil", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "4 juillet 2018", "ACTION": "19", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.483955612638386, 49.253019594272473 ] } },
-{ "type": "Feature", "properties": { "codgeo": "95487", "dep": "95", "reg2016": "11", "libgeo": "Persan", "libgeo_m": "PERSAN", "pop": 12444.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "OUI", "NOM_COM": "Persan + Beaumont-sur-Oise", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "15", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.269599464133913, 49.149726695370269 ] } },
-{ "type": "Feature", "properties": { "codgeo": "77284", "dep": "77", "reg2016": "11", "libgeo": "Meaux", "libgeo_m": "MEAUX", "pop": 53526.0, "NOM_REGION": "Île-de-France", "JUMELAGE": "NON", "NOM_COM": "Meaux", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "4", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.899824199488096, 48.956991839959912 ] } },
-{ "type": "Feature", "properties": { "codgeo": "60159", "dep": "60", "reg2016": "32", "libgeo": "Compiègne", "libgeo_m": "COMPIÈGNE", "pop": 40732.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Compiègne", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.853840088166802, 49.39927487092001 ] } },
-{ "type": "Feature", "properties": { "codgeo": "89387", "dep": "89", "reg2016": "27", "libgeo": "Sens", "libgeo_m": "SENS", "pop": 25507.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Sens", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.297650170680651, 48.195758603845547 ] } },
-{ "type": "Feature", "properties": { "codgeo": "89024", "dep": "89", "reg2016": "27", "libgeo": "Auxerre", "libgeo_m": "AUXERRE", "pop": 34843.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Auxerre", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "28 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.581695661272035, 47.793672934653891 ] } },
-{ "type": "Feature", "properties": { "codgeo": "10387", "dep": "10", "reg2016": "44", "libgeo": "Troyes", "libgeo_m": "TROYES", "pop": 60750.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Troyes", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "27 juin 2018", "ACTION": "15", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.078012439599275, 48.296854489515397 ] } },
-{ "type": "Feature", "properties": { "codgeo": "02168", "dep": "02", "reg2016": "32", "libgeo": "Château-Thierry", "libgeo_m": "CHÂTEAU-THIERRY", "pop": 14546.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Châteaubriant", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "2", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.381494377152928, 49.056344034618718 ] } },
-{ "type": "Feature", "properties": { "codgeo": "02722", "dep": "02", "reg2016": "32", "libgeo": "Soissons", "libgeo_m": "SOISSONS", "pop": 28290.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Soissons", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "3", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.324277825370466, 49.379091002312506 ] } },
-{ "type": "Feature", "properties": { "codgeo": "51230", "dep": "51", "reg2016": "44", "libgeo": "Épernay", "libgeo_m": "ÉPERNAY", "pop": 23176.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Épernay", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.931678181334036, 49.0369769469579 ] } },
-{ "type": "Feature", "properties": { "codgeo": "51108", "dep": "51", "reg2016": "44", "libgeo": "Châlons-en-Champagne", "libgeo_m": "CHÂLONS-EN-CHAMPAGNE", "pop": 45002.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Châlon-sur-Saône", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.378827291165166, 48.964171738343033 ] } },
-{ "type": "Feature", "properties": { "codgeo": "02408", "dep": "02", "reg2016": "32", "libgeo": "Laon", "libgeo_m": "LAON", "pop": 25282.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Laon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.621361523864909, 49.568000960500008 ] } },
-{ "type": "Feature", "properties": { "codgeo": "08409", "dep": "08", "reg2016": "44", "libgeo": "Sedan", "libgeo_m": "SEDAN", "pop": 17829.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Sedan", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.929864323385634, 49.696922062962201 ] } },
-{ "type": "Feature", "properties": { "codgeo": "08105", "dep": "08", "reg2016": "44", "libgeo": "Charleville-Mézières", "libgeo_m": "CHARLEVILLE-MÉZIÈRES", "pop": 48615.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Charleville-Mézières", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.717315120537394, 49.775101560097944 ] } },
-{ "type": "Feature", "properties": { "codgeo": "04112", "dep": "04", "reg2016": "93", "libgeo": "Manosque", "libgeo_m": "MANOSQUE", "pop": 21941.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Manosque", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.791233115927877, 43.835149854884101 ] } },
-{ "type": "Feature", "properties": { "codgeo": "52121", "dep": "52", "reg2016": "44", "libgeo": "Chaumont", "libgeo_m": "CHAUMONT", "pop": 22674.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Chaumont", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "28 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.139871148765794, 48.097650783940139 ] } },
-{ "type": "Feature", "properties": { "codgeo": "44184", "dep": "44", "reg2016": "52", "libgeo": "Saint-Nazaire", "libgeo_m": "SAINT-NAZAIRE", "pop": 69350.0, "NOM_REGION": "Pays de la Loire", "JUMELAGE": "NON", "NOM_COM": "Saint-Michel-sur-Orge", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "14 juin 2018", "ACTION": "1", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.251059305062846, 47.280168926629713 ] } },
-{ "type": "Feature", "properties": { "codgeo": "56121", "dep": "56", "reg2016": "53", "libgeo": "Lorient", "libgeo_m": "LORIENT", "pop": 57662.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Lorient", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -3.378834988435172, 47.750267301114874 ] } },
-{ "type": "Feature", "properties": { "codgeo": "41018", "dep": "41", "reg2016": "24", "libgeo": "Blois", "libgeo_m": "BLOIS", "pop": 46351.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Blois", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "5 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.305970576553029, 47.581438740748261 ] } },
-{ "type": "Feature", "properties": { "codgeo": "63430", "dep": "63", "reg2016": "84", "libgeo": "Thiers", "libgeo_m": "THIERS", "pop": 11588.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Thiers", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.539489630237543, 45.862255123017448 ] } },
-{ "type": "Feature", "properties": { "codgeo": "56260", "dep": "56", "reg2016": "53", "libgeo": "Vannes", "libgeo_m": "VANNES", "pop": 53036.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Vannes", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.756818997456314, 47.65990870679623 ] } },
-{ "type": "Feature", "properties": { "codgeo": "18033", "dep": "18", "reg2016": "24", "libgeo": "Bourges", "libgeo_m": "BOURGES", "pop": 66528.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Bourges", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.404923597211002, 47.074757888505374 ] } },
-{ "type": "Feature", "properties": { "codgeo": "29151", "dep": "29", "reg2016": "53", "libgeo": "Morlaix", "libgeo_m": "MORLAIX", "pop": 14837.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Morlaix", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -3.820327276397496, 48.600221124310551 ] } },
-{ "type": "Feature", "properties": { "codgeo": "56178", "dep": "56", "reg2016": "53", "libgeo": "Pontivy", "libgeo_m": "PONTIVY", "pop": 13965.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Pontivy", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.970895819356824, 48.072995603864406 ] } },
-{ "type": "Feature", "properties": { "codgeo": "84007", "dep": "84", "reg2016": "93", "libgeo": "Avignon", "libgeo_m": "AVIGNON", "pop": 92209.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Avignon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.841311943302482, 43.935308845988388 ] } },
-{ "type": "Feature", "properties": { "codgeo": "35236", "dep": "35", "reg2016": "53", "libgeo": "Redon", "libgeo_m": "REDON", "pop": 8921.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Redon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.080221137047696, 47.661306863537568 ] } },
-{ "type": "Feature", "properties": { "codgeo": "49099", "dep": "49", "reg2016": "52", "libgeo": "Cholet", "libgeo_m": "CHOLET", "pop": 53853.0, "NOM_REGION": "Pays de la Loire", "JUMELAGE": "NON", "NOM_COM": "Cholet", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.877091038130843, 47.045846880661962 ] } },
-{ "type": "Feature", "properties": { "codgeo": "13108", "dep": "13", "reg2016": "93", "libgeo": "Tarascon", "libgeo_m": "TARASCON", "pop": 14583.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Tarascon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.686120388177779, 43.794153457808846 ] } },
-{ "type": "Feature", "properties": { "codgeo": "2B033", "dep": "2B", "reg2016": "94", "libgeo": "Bastia", "libgeo_m": "BASTIA", "pop": 43331.0, "NOM_REGION": "Corse", "JUMELAGE": "NON", "NOM_COM": "Bastia", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 9.425195447287285, 42.686289223184104 ] } },
-{ "type": "Feature", "properties": { "codgeo": "63178", "dep": "63", "reg2016": "84", "libgeo": "Issoire", "libgeo_m": "ISSOIRE", "pop": 14578.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Issoire", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.245033176045772, 45.545581279171259 ] } },
-{ "type": "Feature", "properties": { "codgeo": "55029", "dep": "55", "reg2016": "44", "libgeo": "Bar-le-Duc", "libgeo_m": "BAR-LE-DUC", "pop": 15668.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Bar-le-Duc", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.163242929403842, 48.76407295852119 ] } },
-{ "type": "Feature", "properties": { "codgeo": "04070", "dep": "04", "reg2016": "93", "libgeo": "Digne-les-Bains", "libgeo_m": "DIGNE-LES-BAINS", "pop": 16304.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Digne-les-Bains", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.235567284228262, 44.090466908180296 ] } },
-{ "type": "Feature", "properties": { "codgeo": "03185", "dep": "03", "reg2016": "84", "libgeo": "Montluçon", "libgeo_m": "MONTLUÇON", "pop": 37289.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Montluçon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.603739729693067, 46.339048473883004 ] } },
-{ "type": "Feature", "properties": { "codgeo": "40192", "dep": "40", "reg2016": "75", "libgeo": "Mont-de-Marsan", "libgeo_m": "MONT-DE-MARSAN", "pop": 31009.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Montargis", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.490445637281872, 43.899449191223766 ] } },
-{ "type": "Feature", "properties": { "codgeo": "34003", "dep": "34", "reg2016": "76", "libgeo": "Agde", "libgeo_m": "AGDE", "pop": 26111.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Agde", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.484547295600254, 43.309440069717532 ] } },
-{ "type": "Feature", "properties": { "codgeo": "35360", "dep": "35", "reg2016": "53", "libgeo": "Vitré", "libgeo_m": "VITRÉ", "pop": 17571.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Vitré", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -1.19361135406237, 48.114112006616864 ] } },
-{ "type": "Feature", "properties": { "codgeo": "06155", "dep": "06", "reg2016": "93", "libgeo": "Vallauris", "libgeo_m": "VALLAURIS", "pop": 26302.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Vallauris", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 7.057889111081423, 43.576890234657121 ] } },
-{ "type": "Feature", "properties": { "codgeo": "36088", "dep": "36", "reg2016": "24", "libgeo": "Issoudun", "libgeo_m": "ISSOUDUN", "pop": 12270.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Issoudun", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.000012051340383, 46.94858149426863 ] } },
-{ "type": "Feature", "properties": { "codgeo": "76217", "dep": "76", "reg2016": "28", "libgeo": "Dieppe", "libgeo_m": "DIEPPE", "pop": 30086.0, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Dieppe", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "5 juillet", "ACTION": "30", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.087086928954554, 49.921931211485052 ] } },
-{ "type": "Feature", "properties": { "codgeo": "83050", "dep": "83", "reg2016": "93", "libgeo": "Draguignan", "libgeo_m": "DRAGUIGNAN", "pop": 40054.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Draguignan", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "30 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.454789110544071, 43.535915807211524 ] } },
-{ "type": "Feature", "properties": { "codgeo": "38563", "dep": "38", "reg2016": "84", "libgeo": "Voiron", "libgeo_m": "VOIRON", "pop": 20162.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Voiron", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.582699820620621, 45.378479877421498 ] } },
-{ "type": "Feature", "properties": { "codgeo": "05023", "dep": "05", "reg2016": "93", "libgeo": "Briançon", "libgeo_m": "BRIANÇON", "pop": 12392.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Briançon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "4", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.648971481364541, 44.899622310560339 ] } },
-{ "type": "Feature", "properties": { "codgeo": "58194", "dep": "58", "reg2016": "27", "libgeo": "Nevers", "libgeo_m": "NEVERS", "pop": 34485.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Nevers", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "21 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.157068520735991, 46.988182847627506 ] } },
-{ "type": "Feature", "properties": { "codgeo": "36044", "dep": "36", "reg2016": "24", "libgeo": "Châteauroux", "libgeo_m": "CHÂTEAUROUX", "pop": 44479.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Château-Thierry", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "7", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.693894503000636, 46.803182202471952 ] } },
-{ "type": "Feature", "properties": { "codgeo": "18279", "dep": "18", "reg2016": "24", "libgeo": "Vierzon", "libgeo_m": "VIERZON", "pop": 27050.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Vierzon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.078924408433461, 47.237097315643311 ] } },
-{ "type": "Feature", "properties": { "codgeo": "84031", "dep": "84", "reg2016": "93", "libgeo": "Carpentras", "libgeo_m": "CARPENTRAS", "pop": 28447.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Carpentras", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "4", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.061254427028456, 44.059239876178104 ] } },
-{ "type": "Feature", "properties": { "codgeo": "26198", "dep": "26", "reg2016": "84", "libgeo": "Montélimar", "libgeo_m": "MONTÉLIMAR", "pop": 37193.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Montélimar", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.748887958835333, 44.553877397523109 ] } },
-{ "type": "Feature", "properties": { "codgeo": "74225", "dep": "74", "reg2016": "84", "libgeo": "Rumilly", "libgeo_m": "RUMILLY", "pop": 14836.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Rumilly", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.940557763970069, 45.855432509528754 ] } },
-{ "type": "Feature", "properties": { "codgeo": "42187", "dep": "42", "reg2016": "84", "libgeo": "Roanne", "libgeo_m": "ROANNE", "pop": 35200.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Roanne", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.080075756684638, 46.045061581601686 ] } },
-{ "type": "Feature", "properties": { "codgeo": "41194", "dep": "41", "reg2016": "24", "libgeo": "Romorantin-Lanthenay", "libgeo_m": "ROMORANTIN-LANTHENAY", "pop": 17459.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Romorantin-Lanthenay", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "5 juillet 2018", "ACTION": "2", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.744326670820672, 47.374857748728765 ] } },
-{ "type": "Feature", "properties": { "codgeo": "49328", "dep": "49", "reg2016": "52", "libgeo": "Saumur", "libgeo_m": "SAUMUR", "pop": 27301.0, "NOM_REGION": "Pays de la Loire", "JUMELAGE": "NON", "NOM_COM": "Saumur", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "11 juin 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.082648891595745, 47.267271290594095 ] } },
-{ "type": "Feature", "properties": { "codgeo": "85092", "dep": "85", "reg2016": "52", "libgeo": "Fontenay-le-Comte", "libgeo_m": "FONTENAY-LE-COMTE", "pop": 13609.0, "NOM_REGION": "Pays de la Loire", "JUMELAGE": "NON", "NOM_COM": "Fontenay-le-Comte", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.793037634508802, 46.456288372166604 ] } },
-{ "type": "Feature", "properties": { "codgeo": "2A004", "dep": "2A", "reg2016": "94", "libgeo": "Ajaccio", "libgeo_m": "AJACCIO", "pop": 68587.0, "NOM_REGION": "Corse", "JUMELAGE": "NON", "NOM_COM": "Ajaccio", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "12 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 8.701352315123071, 41.934924782158078 ] } },
-{ "type": "Feature", "properties": { "codgeo": "01053", "dep": "01", "reg2016": "84", "libgeo": "Bourg-en-Bresse", "libgeo_m": "BOURG-EN-BRESSE", "pop": 40967.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Bourg-en-Bresse", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "30 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.245532728324377, 46.204726618917753 ] } },
-{ "type": "Feature", "properties": { "codgeo": "53130", "dep": "53", "reg2016": "52", "libgeo": "Laval", "libgeo_m": "LAVAL", "pop": 50073.0, "NOM_REGION": "Pays de la Loire", "JUMELAGE": "NON", "NOM_COM": "Laval", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "indefini", "ACTION": "1", "PROJET": "Concertation Laval Cœur de Ville", "categorie": "sig", "INTERNET": "http:\/\/www.laval.fr\/demain-en-grand\/centre-ville-1633.html" }, "geometry": { "type": "Point", "coordinates": [ -0.766056752810545, 48.061099142098527 ] } },
-{ "type": "Feature", "properties": { "codgeo": "71306", "dep": "71", "reg2016": "27", "libgeo": "Montceau-les-Mines", "libgeo_m": "MONTCEAU-LES-MINES", "pop": 18902.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Mont-de-Marsan", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.353996757639528, 46.675695185895442 ] } },
-{ "type": "Feature", "properties": { "codgeo": "35115", "dep": "35", "reg2016": "53", "libgeo": "Fougères", "libgeo_m": "FOUGÈRES", "pop": 20189.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Fougères", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -1.194945352315367, 48.352605278012341 ] } },
-{ "type": "Feature", "properties": { "codgeo": "05061", "dep": "05", "reg2016": "93", "libgeo": "Gap", "libgeo_m": "GAP", "pop": 40225.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Gap", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "15", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.064704781380208, 44.580437492425169 ] } },
-{ "type": "Feature", "properties": { "codgeo": "47001", "dep": "47", "reg2016": "75", "libgeo": "Agen", "libgeo_m": "AGEN", "pop": 34126.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Agen", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.625844792959462, 44.202466742600812 ] } },
-{ "type": "Feature", "properties": { "codgeo": "40088", "dep": "40", "reg2016": "75", "libgeo": "Dax", "libgeo_m": "DAX", "pop": 20485.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Dax", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -1.059212365942955, 43.700811424725138 ] } },
-{ "type": "Feature", "properties": { "codgeo": "35288", "dep": "35", "reg2016": "53", "libgeo": "Saint-Malo", "libgeo_m": "SAINT-MALO", "pop": 45980.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Saint-Lô", "AV_PUBLIC": "indefini", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "ind", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -1.980823251764833, 48.639758134660063 ] } },
-{ "type": "Feature", "properties": { "codgeo": "13004", "dep": "13", "reg2016": "93", "libgeo": "Arles", "libgeo_m": "ARLES", "pop": 52697.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Arles", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "6 juillet 2018", "ACTION": "4", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.66166962420731, 43.54709650480131 ] } },
-{ "type": "Feature", "properties": { "codgeo": "29232", "dep": "29", "reg2016": "53", "libgeo": "Quimper", "libgeo_m": "QUIMPER", "pop": 63513.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Quimper", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -4.091009969613908, 47.996915410416477 ] } },
-{ "type": "Feature", "properties": { "codgeo": "34301", "dep": "34", "reg2016": "76", "libgeo": "Sète", "libgeo_m": "SÈTE", "pop": 44136.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Sète", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.646637893937207, 43.391816348422502 ] } },
-{ "type": "Feature", "properties": { "codgeo": "39300", "dep": "39", "reg2016": "27", "libgeo": "Lons-le-Saunier", "libgeo_m": "LONS-LE-SAUNIER", "pop": 17311.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Lons-le-Saunier", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "20 juin 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.558227731576244, 46.674877153028682 ] } },
-{ "type": "Feature", "properties": { "codgeo": "37072", "dep": "37", "reg2016": "24", "libgeo": "Chinon", "libgeo_m": "CHINON", "pop": 8073.0, "NOM_REGION": "Centre-Val de Loire", "JUMELAGE": "NON", "NOM_COM": "Chinon", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "11 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.245142448659773, 47.171866154045937 ] } },
-{ "type": "Feature", "properties": { "codgeo": "84035", "dep": "84", "reg2016": "93", "libgeo": "Cavaillon", "libgeo_m": "CAVAILLON", "pop": 26201.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Cavaillon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "1", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.035633637944359, 43.850594014780086 ] } },
-{ "type": "Feature", "properties": { "codgeo": "03190", "dep": "03", "reg2016": "84", "libgeo": "Moulins", "libgeo_m": "MOULINS", "pop": 19762.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Moulins", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.327249633604719, 46.562277928339959 ] } },
-{ "type": "Feature", "properties": { "codgeo": "09122", "dep": "09", "reg2016": "76", "libgeo": "Foix", "libgeo_m": "FOIX", "pop": 9721.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Foix", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.610163842983825, 42.965367714005822 ] } },
-{ "type": "Feature", "properties": { "codgeo": "44036", "dep": "44", "reg2016": "52", "libgeo": "Châteaubriant", "libgeo_m": "CHÂTEAUBRIANT", "pop": 11895.0, "NOM_REGION": "Pays de la Loire", "JUMELAGE": "NON", "NOM_COM": "Châteauroux", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -1.386977158711088, 47.722100646960243 ] } },
-{ "type": "Feature", "properties": { "codgeo": "22113", "dep": "22", "reg2016": "53", "libgeo": "Lannion", "libgeo_m": "LANNION", "pop": 19869.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Lannion", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -3.462836479238216, 48.743622605548261 ] } },
-{ "type": "Feature", "properties": { "codgeo": "71153", "dep": "71", "reg2016": "27", "libgeo": "Le Creusot", "libgeo_m": "LE CREUSOT", "pop": 21991.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Le Creusot", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "26 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.426675961084858, 46.806558834965742 ] } },
-{ "type": "Feature", "properties": { "codgeo": "06069", "dep": "06", "reg2016": "93", "libgeo": "Grasse", "libgeo_m": "GRASSE", "pop": 50409.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Grasse", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.931999177027172, 43.655847796028041 ] } },
-{ "type": "Feature", "properties": { "codgeo": "22278", "dep": "22", "reg2016": "53", "libgeo": "Saint-Brieuc", "libgeo_m": "SAINT-BRIEUC", "pop": 45207.0, "NOM_REGION": "Bretagne", "JUMELAGE": "NON", "NOM_COM": "Saint-Brieuc", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -2.762056750950001, 48.514592042700812 ] } },
-{ "type": "Feature", "properties": { "codgeo": "07186", "dep": "07", "reg2016": "84", "libgeo": "Privas", "libgeo_m": "PRIVAS", "pop": 8313.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Privas", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.59409815898042, 44.721878418789956 ] } },
-{ "type": "Feature", "properties": { "codgeo": "83023", "dep": "83", "reg2016": "93", "libgeo": "Brignoles", "libgeo_m": "BRIGNOLES", "pop": 16690.0, "NOM_REGION": "Provence-Alpes-Côte d'Azur", "JUMELAGE": "NON", "NOM_COM": "Brignoles", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "30 septembre 2018", "ACTION": "15", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.076632969957647, 43.399342611908466 ] } },
-{ "type": "Feature", "properties": { "codgeo": "85191", "dep": "85", "reg2016": "52", "libgeo": "La Roche-sur-Yon", "libgeo_m": "LA ROCHE-SUR-YON", "pop": 53162.0, "NOM_REGION": "Pays de la Loire", "JUMELAGE": "NON", "NOM_COM": "La Roche-sur-Yon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -1.40786080631025, 46.667619557155355 ] } },
-{ "type": "Feature", "properties": { "codgeo": "01283", "dep": "01", "reg2016": "84", "libgeo": "Oyonnax", "libgeo_m": "OYONNAX", "pop": 22485.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Oyonnax", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "30 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.65240601385353, 46.261016707466659 ] } },
-{ "type": "Feature", "properties": { "codgeo": "69243", "dep": "69", "reg2016": "84", "libgeo": "Tarare", "libgeo_m": "TARARE", "pop": 10814.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Tarare", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "13 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.424454926888377, 45.903534177227939 ] } },
-{ "type": "Feature", "properties": { "codgeo": "47323", "dep": "47", "reg2016": "75", "libgeo": "Villeneuve-sur-Lot", "libgeo_m": "VILLENEUVE-SUR-LOT", "pop": 23263.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Villeneuve-sur-Lot", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.741982772038308, 44.424714540934943 ] } },
-{ "type": "Feature", "properties": { "codgeo": "79049", "dep": "79", "reg2016": "75", "libgeo": "Bressuire", "libgeo_m": "BRESSUIRE", "pop": 19300.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Bressuire", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.479579856027751, 46.854490183436766 ] } },
-{ "type": "Feature", "properties": { "codgeo": "19031", "dep": "19", "reg2016": "75", "libgeo": "Brive-la-Gaillarde", "libgeo_m": "BRIVE-LA-GAILLARDE", "pop": 46961.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Brive-la-Gaillarde", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.518977462604862, 45.143389409281738 ] } },
-{ "type": "Feature", "properties": { "codgeo": "33243", "dep": "33", "reg2016": "75", "libgeo": "Libourne", "libgeo_m": "LIBOURNE", "pop": 24595.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Les Mureaux", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "3", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.234492994765012, 44.913122955232808 ] } },
-{ "type": "Feature", "properties": { "codgeo": "24037", "dep": "24", "reg2016": "75", "libgeo": "Bergerac", "libgeo_m": "BERGERAC", "pop": 27764.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Bergerac", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "15 septembre 2018", "ACTION": "15", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.486420054336386, 44.854159682437796 ] } },
-{ "type": "Feature", "properties": { "codgeo": "19272", "dep": "19", "reg2016": "75", "libgeo": "Tulle", "libgeo_m": "TULLE", "pop": 14325.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Tulle", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "6", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.763453680934794, 45.27343255535299 ] } },
-{ "type": "Feature", "properties": { "codgeo": "64102", "dep": "64", "reg2016": "75", "libgeo": "Bayonne", "libgeo_m": "BAYONNE", "pop": 48178.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Bayonne", "AV_PUBLIC": "indefini", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "ind", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -1.466241446874877, 43.492265800084517 ] } },
-{ "type": "Feature", "properties": { "codgeo": "16015", "dep": "16", "reg2016": "75", "libgeo": "Angoulême", "libgeo_m": "ANGOULÊME", "pop": 41955.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Angoulême", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "14 juin 2018", "ACTION": "33", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.144997755900805, 45.647554594788517 ] } },
-{ "type": "Feature", "properties": { "codgeo": "47157", "dep": "47", "reg2016": "75", "libgeo": "Marmande", "libgeo_m": "MARMANDE", "pop": 17748.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "OUI", "NOM_COM": "Marmande + Tonneins", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.172323098952358, 44.505077491265148 ] } },
-{ "type": "Feature", "properties": { "codgeo": "17415", "dep": "17", "reg2016": "75", "libgeo": "Saintes", "libgeo_m": "SAINTES", "pop": 25149.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Saint-Quentin", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "3 juillet 2018", "ACTION": "12", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.649837679436522, 45.742314095635543 ] } },
-{ "type": "Feature", "properties": { "codgeo": "24322", "dep": "24", "reg2016": "75", "libgeo": "Périgueux", "libgeo_m": "PÉRIGUEUX", "pop": 30069.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Périgueux", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "15 septembre 2018", "ACTION": "11", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.711532829442806, 45.192014984628415 ] } },
-{ "type": "Feature", "properties": { "codgeo": "86066", "dep": "86", "reg2016": "75", "libgeo": "Châtellerault", "libgeo_m": "CHÂTELLERAULT", "pop": 31722.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Châtellerault", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "11 juillet 2018", "ACTION": "7", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.552646903615344, 46.815321272809037 ] } },
-{ "type": "Feature", "properties": { "codgeo": "17299", "dep": "17", "reg2016": "75", "libgeo": "Rochefort", "libgeo_m": "ROCHEFORT", "pop": 24300.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Rochefort", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "4 juillet 2018", "ACTION": "12", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.97239652679937, 45.942531972819545 ] } },
-{ "type": "Feature", "properties": { "codgeo": "79191", "dep": "79", "reg2016": "75", "libgeo": "Niort", "libgeo_m": "NIORT", "pop": 58311.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Niort", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.464929352335197, 46.328612182705577 ] } },
-{ "type": "Feature", "properties": { "codgeo": "23096", "dep": "23", "reg2016": "75", "libgeo": "Guéret", "libgeo_m": "GUÉRET", "pop": 13342.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Guéret", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "12", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.871136489573162, 46.163145003890278 ] } },
-{ "type": "Feature", "properties": { "codgeo": "64445", "dep": "64", "reg2016": "75", "libgeo": "Pau", "libgeo_m": "PAU", "pop": 77489.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Pau", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "43", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.349669192631937, 43.320170631838153 ] } },
-{ "type": "Feature", "properties": { "codgeo": "16102", "dep": "16", "reg2016": "75", "libgeo": "Cognac", "libgeo_m": "COGNAC", "pop": 18717.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Cognac", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "14 juin 2018", "ACTION": "6", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.335229394416031, 45.696535421482302 ] } },
-{ "type": "Feature", "properties": { "codgeo": "12202", "dep": "12", "reg2016": "76", "libgeo": "Rodez", "libgeo_m": "RODEZ", "pop": 24088.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Rodez", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.566671665801214, 44.35857324324909 ] } },
-{ "type": "Feature", "properties": { "codgeo": "34145", "dep": "34", "reg2016": "76", "libgeo": "Lunel", "libgeo_m": "LUNEL", "pop": 24873.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Lunel", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.136040993955919, 43.682068565606478 ] } },
-{ "type": "Feature", "properties": { "codgeo": "11069", "dep": "11", "reg2016": "76", "libgeo": "Carcassonne", "libgeo_m": "CARCASSONNE", "pop": 45941.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Carcassonne", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.343797455988493, 43.209368336210176 ] } },
-{ "type": "Feature", "properties": { "codgeo": "66136", "dep": "66", "reg2016": "76", "libgeo": "Perpignan", "libgeo_m": "PERPIGNAN", "pop": 120605.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Perpignan", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.898911431097966, 42.696630141419334 ] } },
-{ "type": "Feature", "properties": { "codgeo": "81004", "dep": "81", "reg2016": "76", "libgeo": "Albi", "libgeo_m": "ALBI", "pop": 49531.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Albi", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.147458611627089, 43.925706992680702 ] } },
-{ "type": "Feature", "properties": { "codgeo": "46042", "dep": "46", "reg2016": "76", "libgeo": "Cahors", "libgeo_m": "CAHORS", "pop": 19630.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Cahors", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "13 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.440497103404697, 44.450664905578243 ] } },
-{ "type": "Feature", "properties": { "codgeo": "65440", "dep": "65", "reg2016": "76", "libgeo": "Tarbes", "libgeo_m": "TARBES", "pop": 40900.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Tarbes", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.065714233011368, 43.23479866832529 ] } },
-{ "type": "Feature", "properties": { "codgeo": "32013", "dep": "32", "reg2016": "76", "libgeo": "Auch", "libgeo_m": "AUCH", "pop": 21807.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Auch", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.575086677614449, 43.653272926466563 ] } },
-{ "type": "Feature", "properties": { "codgeo": "46102", "dep": "46", "reg2016": "76", "libgeo": "Figeac", "libgeo_m": "FIGEAC", "pop": 9820.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Figeac", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.025119619754847, 44.60536186411715 ] } },
-{ "type": "Feature", "properties": { "codgeo": "11262", "dep": "11", "reg2016": "76", "libgeo": "Narbonne", "libgeo_m": "NARBONNE", "pop": 52855.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Narbonne", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.020058011085605, 43.165128537124943 ] } },
-{ "type": "Feature", "properties": { "codgeo": "48095", "dep": "48", "reg2016": "76", "libgeo": "Mende", "libgeo_m": "MENDE", "pop": 11542.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Mende", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.481075422283543, 44.52935170105097 ] } },
-{ "type": "Feature", "properties": { "codgeo": "12145", "dep": "12", "reg2016": "76", "libgeo": "Millau", "libgeo_m": "MILLAU", "pop": 22064.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Millau", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.117176334105392, 44.097523356145416 ] } },
-{ "type": "Feature", "properties": { "codgeo": "30028", "dep": "30", "reg2016": "76", "libgeo": "Bagnols-sur-Cèze", "libgeo_m": "BAGNOLS-SUR-CÈZE", "pop": 18172.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Bagnols-sur-Cèze", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.624110587328737, 44.162966281104161 ] } },
-{ "type": "Feature", "properties": { "codgeo": "09225", "dep": "09", "reg2016": "76", "libgeo": "Pamiers", "libgeo_m": "PAMIERS", "pop": 15518.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Pamiers", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.615866763873183, 43.123651829707136 ] } },
-{ "type": "Feature", "properties": { "codgeo": "81065", "dep": "81", "reg2016": "76", "libgeo": "Castres", "libgeo_m": "CASTRES", "pop": 41382.0, "NOM_REGION": "Occitanie", "JUMELAGE": "OUI", "NOM_COM": "Castres + Mazamet", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.238149238750904, 43.615626063077357 ] } },
-{ "type": "Feature", "properties": { "codgeo": "31451", "dep": "31", "reg2016": "76", "libgeo": "Revel", "libgeo_m": "REVEL", "pop": 9387.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Revel", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.996974920397566, 43.465664417811297 ] } },
-{ "type": "Feature", "properties": { "codgeo": "30007", "dep": "30", "reg2016": "76", "libgeo": "Alès", "libgeo_m": "ALÈS", "pop": 39993.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Alès", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.088835619452001, 44.125409313966344 ] } },
-{ "type": "Feature", "properties": { "codgeo": "82121", "dep": "82", "reg2016": "76", "libgeo": "Montauban", "libgeo_m": "MONTAUBAN", "pop": 58826.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Montbéliard", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "29 septembre 2018", "ACTION": "1", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.363751293672131, 44.022591503380546 ] } },
-{ "type": "Feature", "properties": { "codgeo": "65286", "dep": "65", "reg2016": "76", "libgeo": "Lourdes", "libgeo_m": "LOURDES", "pop": 14361.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Lourdes", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.076969498652406, 43.107357725535778 ] } },
-{ "type": "Feature", "properties": { "codgeo": "12300", "dep": "12", "reg2016": "76", "libgeo": "Villefranche-de-Rouergue", "libgeo_m": "VILLEFRANCHE-DE-ROUERGUE", "pop": 11822.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Villefranche-de-Rouergue", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.031096011604296, 44.349876501841742 ] } },
-{ "type": "Feature", "properties": { "codgeo": "34032", "dep": "34", "reg2016": "76", "libgeo": "Béziers", "libgeo_m": "BÉZIERS", "pop": 75701.0, "NOM_REGION": "Occitanie", "JUMELAGE": "NON", "NOM_COM": "Béziers", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.230817406900726, 43.347563866274434 ] } },
-{ "type": "Feature", "properties": { "codgeo": "43157", "dep": "43", "reg2016": "84", "libgeo": "Le Puy-en-Velay", "libgeo_m": "LE PUY-EN-VELAY", "pop": 18634.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Le Puy-en-Velay", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.896090703391058, 45.027739550871772 ] } },
-{ "type": "Feature", "properties": { "codgeo": "26362", "dep": "26", "reg2016": "84", "libgeo": "Valence", "libgeo_m": "VALENCE", "pop": 62150.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Valence", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.913123051598636, 44.922323677462401 ] } },
-{ "type": "Feature", "properties": { "codgeo": "38544", "dep": "38", "reg2016": "84", "libgeo": "Vienne", "libgeo_m": "VIENNE", "pop": 29096.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Vienne", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.880707660383409, 45.520840626348985 ] } },
-{ "type": "Feature", "properties": { "codgeo": "26281", "dep": "26", "reg2016": "84", "libgeo": "Romans-sur-Isère", "libgeo_m": "ROMANS-SUR-ISÈRE", "pop": 33366.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Romans-sur-Isère", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.038067884765549, 45.054896951042124 ] } },
-{ "type": "Feature", "properties": { "codgeo": "07019", "dep": "07", "reg2016": "84", "libgeo": "Aubenas", "libgeo_m": "AUBENAS", "pop": 11917.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Aubenas", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.395681107155693, 44.610315732829569 ] } },
-{ "type": "Feature", "properties": { "codgeo": "63300", "dep": "63", "reg2016": "84", "libgeo": "Riom", "libgeo_m": "RIOM", "pop": 18749.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Riom", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.132645850817984, 45.894116779305584 ] } },
-{ "type": "Feature", "properties": { "codgeo": "03310", "dep": "03", "reg2016": "84", "libgeo": "Vichy", "libgeo_m": "VICHY", "pop": 25279.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Vichy", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.424070745398382, 46.129921195807405 ] } },
-{ "type": "Feature", "properties": { "codgeo": "42147", "dep": "42", "reg2016": "84", "libgeo": "Montbrison", "libgeo_m": "MONTBRISON", "pop": 15689.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Montceau-les-Mines", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.071520678591326, 45.600861317874035 ] } },
-{ "type": "Feature", "properties": { "codgeo": "07010", "dep": "07", "reg2016": "84", "libgeo": "Annonay", "libgeo_m": "ANNONAY", "pop": 16302.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Annonay", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.651150352923195, 45.246299628887421 ] } },
-{ "type": "Feature", "properties": { "codgeo": "01004", "dep": "01", "reg2016": "84", "libgeo": "Ambérieu-en-Bugey", "libgeo_m": "AMBÉRIEU-EN-BUGEY", "pop": 14022.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Ambérieu-en-Bugey", "AV_PUBLIC": "indefini", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "ind", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.372182397688816, 45.960757351420135 ] } },
-{ "type": "Feature", "properties": { "codgeo": "38053", "dep": "38", "reg2016": "84", "libgeo": "Bourgoin-Jallieu", "libgeo_m": "BOURGOIN-JALLIEU", "pop": 27366.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Bourgoin-Jallieu", "AV_PUBLIC": "indefini", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "ind", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.273772469365151, 45.602708449815012 ] } },
-{ "type": "Feature", "properties": { "codgeo": "15014", "dep": "15", "reg2016": "84", "libgeo": "Aurillac", "libgeo_m": "AURILLAC", "pop": 26135.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Aurillac", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.441798216868106, 44.924524868917658 ] } },
-{ "type": "Feature", "properties": { "codgeo": "73065", "dep": "73", "reg2016": "84", "libgeo": "Chambéry", "libgeo_m": "CHAMBÉRY", "pop": 59490.0, "NOM_REGION": "Auvergne-Rhône-Alpes", "JUMELAGE": "NON", "NOM_COM": "Chambéry", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.908774454616381, 45.583710155542903 ] } },
-{ "type": "Feature", "properties": { "codgeo": "71014", "dep": "71", "reg2016": "27", "libgeo": "Autun", "libgeo_m": "AUTUN", "pop": 13955.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Autun", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.310902946928877, 46.946476300493671 ] } },
-{ "type": "Feature", "properties": { "codgeo": "71076", "dep": "71", "reg2016": "27", "libgeo": "Chalon-sur-Saône", "libgeo_m": "CHALON-SUR-SAÔNE", "pop": 44985.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Châlons-en-Champagne", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "8 juin 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.852436963970494, 46.789835392542834 ] } },
-{ "type": "Feature", "properties": { "codgeo": "25388", "dep": "25", "reg2016": "27", "libgeo": "Montbéliard", "libgeo_m": "MONTBÉLIARD", "pop": 25521.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Montbrison", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "26 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.79254789703823, 47.515174646051079 ] } },
-{ "type": "Feature", "properties": { "codgeo": "71270", "dep": "71", "reg2016": "27", "libgeo": "Mâcon", "libgeo_m": "MÂCON", "pop": 33456.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Mâcon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.818348278387838, 46.320640922912069 ] } },
-{ "type": "Feature", "properties": { "codgeo": "90010", "dep": "90", "reg2016": "27", "libgeo": "Belfort", "libgeo_m": "BELFORT", "pop": 49764.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Belfort", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.845495725808585, 47.646388881093067 ] } },
-{ "type": "Feature", "properties": { "codgeo": "58086", "dep": "58", "reg2016": "27", "libgeo": "Cosne-Cours-sur-Loire", "libgeo_m": "COSNE-COURS-SUR-LOIRE", "pop": 10553.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Cosne-Cours-sur-Loire", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.942450776542274, 47.402638352740915 ] } },
-{ "type": "Feature", "properties": { "codgeo": "70550", "dep": "70", "reg2016": "27", "libgeo": "Vesoul", "libgeo_m": "VESOUL", "pop": 15212.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Vesoul", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "30 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.155504975705777, 47.63187834473456 ] } },
-{ "type": "Feature", "properties": { "codgeo": "39198", "dep": "39", "reg2016": "27", "libgeo": "Dole", "libgeo_m": "DOLE", "pop": 23312.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Dôle", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "21 juin 2018", "ACTION": "1", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.500819700704931, 47.075405312980436 ] } },
-{ "type": "Feature", "properties": { "codgeo": "57606", "dep": "57", "reg2016": "44", "libgeo": "Saint-Avold", "libgeo_m": "SAINT-AVOLD", "pop": 15875.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Saint-Avold", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.71259252428074, 49.128739581687668 ] } },
-{ "type": "Feature", "properties": { "codgeo": "54528", "dep": "54", "reg2016": "44", "libgeo": "Toul", "libgeo_m": "TOUL", "pop": 15966.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Toul", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "1er septembre 2018", "ACTION": "18", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.894963485615873, 48.686659947383717 ] } },
-{ "type": "Feature", "properties": { "codgeo": "55545", "dep": "55", "reg2016": "44", "libgeo": "Verdun", "libgeo_m": "VERDUN", "pop": 18393.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Verdun", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "11 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.362225279986513, 49.145267780047718 ] } },
-{ "type": "Feature", "properties": { "codgeo": "67180", "dep": "67", "reg2016": "44", "libgeo": "Haguenau", "libgeo_m": "HAGUENAU", "pop": 34761.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Haguenau", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 7.830061805222173, 48.842118898637011 ] } },
-{ "type": "Feature", "properties": { "codgeo": "88413", "dep": "88", "reg2016": "44", "libgeo": "Saint-Dié-des-Vosges", "libgeo_m": "SAINT-DIÉ-DES-VOSGES", "pop": 20315.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Saint-Dié-des-Vosges", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "13 juillet 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.937880859749439, 48.296848255804818 ] } },
-{ "type": "Feature", "properties": { "codgeo": "52448", "dep": "52", "reg2016": "44", "libgeo": "Saint-Dizier", "libgeo_m": "SAINT-DIZIER", "pop": 25505.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Saint-Dizier", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "8 juin 2018", "ACTION": "5", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 4.949109517275252, 48.628165067302149 ] } },
-{ "type": "Feature", "properties": { "codgeo": "68066", "dep": "68", "reg2016": "44", "libgeo": "Colmar", "libgeo_m": "COLMAR", "pop": 68784.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Colmar", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 7.384945112982851, 48.110141495240555 ] } },
-{ "type": "Feature", "properties": { "codgeo": "68112", "dep": "68", "reg2016": "44", "libgeo": "Guebwiller", "libgeo_m": "GUEBWILLER", "pop": 11297.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Guebwiller", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 7.210132454071903, 47.909494849788096 ] } },
-{ "type": "Feature", "properties": { "codgeo": "54323", "dep": "54", "reg2016": "44", "libgeo": "Longwy", "libgeo_m": "LONGWY", "pop": 14293.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Longwy", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 5.767004482724134, 49.521063957494988 ] } },
-{ "type": "Feature", "properties": { "codgeo": "57631", "dep": "57", "reg2016": "44", "libgeo": "Sarreguemines", "libgeo_m": "SARREGUEMINES", "pop": 21457.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Sarreguemines", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 7.070811822141099, 49.109268501010838 ] } },
-{ "type": "Feature", "properties": { "codgeo": "57227", "dep": "57", "reg2016": "44", "libgeo": "Forbach", "libgeo_m": "FORBACH", "pop": 21740.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Forbach", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.892728959209941, 49.191579355575648 ] } },
-{ "type": "Feature", "properties": { "codgeo": "57630", "dep": "57", "reg2016": "44", "libgeo": "Sarrebourg", "libgeo_m": "SARREBOURG", "pop": 12363.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Sarrebourg", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 7.047162476649843, 48.7384543341824 ] } },
-{ "type": "Feature", "properties": { "codgeo": "88160", "dep": "88", "reg2016": "44", "libgeo": "Épinal", "libgeo_m": "ÉPINAL", "pop": 32006.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Épinal", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.479541065233916, 48.162965438501317 ] } },
-{ "type": "Feature", "properties": { "codgeo": "54329", "dep": "54", "reg2016": "44", "libgeo": "Lunéville", "libgeo_m": "LUNÉVILLE", "pop": 19325.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Lunéville", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "8 juin 2018", "ACTION": "13", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.49849552347523, 48.591813246409778 ] } },
-{ "type": "Feature", "properties": { "codgeo": "57672", "dep": "57", "reg2016": "44", "libgeo": "Thionville", "libgeo_m": "THIONVILLE", "pop": 41083.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Thionville", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "29 juin 2018", "ACTION": null, "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.129707717215705, 49.375859161934599 ] } },
-{ "type": "Feature", "properties": { "codgeo": "67437", "dep": "67", "reg2016": "44", "libgeo": "Saverne", "libgeo_m": "SAVERNE", "pop": 11433.0, "NOM_REGION": "Grand Est", "JUMELAGE": "NON", "NOM_COM": "Saverne", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "6", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 7.34122594460799, 48.739701982716795 ] } },
-{ "type": "Feature", "properties": { "codgeo": "59172", "dep": "59", "reg2016": "32", "libgeo": "Denain", "libgeo_m": "DENAIN", "pop": 20510.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Denain", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.389888786511927, 50.330463344122258 ] } },
-{ "type": "Feature", "properties": { "codgeo": "80001", "dep": "80", "reg2016": "32", "libgeo": "Abbeville", "libgeo_m": "ABBEVILLE", "pop": 23559.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Abbeville", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "1", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.832102635070834, 50.108444775962113 ] } },
-{ "type": "Feature", "properties": { "codgeo": "02691", "dep": "02", "reg2016": "32", "libgeo": "Saint-Quentin", "libgeo_m": "SAINT-QUENTIN", "pop": 55878.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Saint-Pierre", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.277923429310591, 49.847272949173089 ] } },
-{ "type": "Feature", "properties": { "codgeo": "62765", "dep": "62", "reg2016": "32", "libgeo": "Saint-Omer", "libgeo_m": "SAINT-OMER", "pop": 14164.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Saint-Nazaire", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "10", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.263773215406818, 50.767522670258046 ] } },
-{ "type": "Feature", "properties": { "codgeo": "59392", "dep": "59", "reg2016": "32", "libgeo": "Maubeuge", "libgeo_m": "MAUBEUGE", "pop": 30347.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Maubeuge", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "5", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.962747349743137, 50.284378092520441 ] } },
-{ "type": "Feature", "properties": { "codgeo": "62193", "dep": "62", "reg2016": "32", "libgeo": "Calais", "libgeo_m": "CALAIS", "pop": 76402.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Calais", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.875913321747826, 50.950060880613556 ] } },
-{ "type": "Feature", "properties": { "codgeo": "59122", "dep": "59", "reg2016": "32", "libgeo": "Cambrai", "libgeo_m": "CAMBRAI", "pop": 32897.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Cambrai", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.242336607729341, 50.170375424702748 ] } },
-{ "type": "Feature", "properties": { "codgeo": "62510", "dep": "62", "reg2016": "32", "libgeo": "Liévin", "libgeo_m": "LIÉVIN", "pop": 31590.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "OUI", "NOM_COM": "Libourne", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "29", "PROJET": "Libourne 2025", "categorie": "non", "INTERNET": "http:\/\/www.libourne2025.fr\/" }, "geometry": { "type": "Point", "coordinates": [ 2.772939608450839, 50.424199617114851 ] } },
-{ "type": "Feature", "properties": { "codgeo": "59183", "dep": "59", "reg2016": "32", "libgeo": "Dunkerque", "libgeo_m": "DUNKERQUE", "pop": 89160.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Dunkerque", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.337045447294792, 51.030572566032248 ] } },
-{ "type": "Feature", "properties": { "codgeo": "59178", "dep": "59", "reg2016": "32", "libgeo": "Douai", "libgeo_m": "DOUAI", "pop": 40736.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Douai", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "11", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.091141646340032, 50.38195828781091 ] } },
-{ "type": "Feature", "properties": { "codgeo": "62041", "dep": "62", "reg2016": "32", "libgeo": "Arras", "libgeo_m": "ARRAS", "pop": 40970.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Arras", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "12 juin 2018", "ACTION": "3", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.766424284969476, 50.289926016134999 ] } },
-{ "type": "Feature", "properties": { "codgeo": "59606", "dep": "59", "reg2016": "32", "libgeo": "Valenciennes", "libgeo_m": "VALENCIENNES", "pop": 43787.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Valenciennes", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 3.515992635782976, 50.359126945301931 ] } },
-{ "type": "Feature", "properties": { "codgeo": "62160", "dep": "62", "reg2016": "32", "libgeo": "Boulogne-sur-Mer", "libgeo_m": "BOULOGNE-SUR-MER", "pop": 42476.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "NON", "NOM_COM": "Boulogne-sur-Mer", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "21", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.606071606562936, 50.727048400536198 ] } },
-{ "type": "Feature", "properties": { "codgeo": "62119", "dep": "62", "reg2016": "32", "libgeo": "Béthune", "libgeo_m": "BÉTHUNE", "pop": 25413.0, "NOM_REGION": "Hauts-de-France", "JUMELAGE": "OUI", "NOM_COM": "Béthune + Bruay-la-Buissière", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 2.643206236603512, 50.529114089946646 ] } },
-{ "type": "Feature", "properties": { "codgeo": "50502", "dep": "50", "reg2016": "28", "libgeo": "Saint-Lô", "libgeo_m": "SAINT-LÔ", "pop": 19426.0, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Saint-Laurent-du-Maroni", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -1.077542935753261, 49.109717616240758 ] } },
-{ "type": "Feature", "properties": { "codgeo": "14762", "dep": "14", "reg2016": "28", "libgeo": "Vire", "libgeo_m": "VIRE", "pop": 11524.643919599999, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Vire", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "19", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.890957819037842, 48.850627593515611 ] } },
-{ "type": "Feature", "properties": { "codgeo": "61169", "dep": "61", "reg2016": "28", "libgeo": "Flers", "libgeo_m": "FLERS", "pop": 14736.0, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Flers", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": "3", "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -0.562167736475246, 48.740013760886207 ] } },
-{ "type": "Feature", "properties": { "codgeo": "50129", "dep": "50", "reg2016": "28", "libgeo": "Cherbourg-Octeville", "libgeo_m": "CHERBOURG-OCTEVILLE", "pop": 37046.305724999998, "NOM_REGION": "Normandie", "JUMELAGE": "NON", "NOM_COM": "Cherbourg-en-Cotentin", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ -1.633583564268463, 49.633102371330374 ] } },
-{ "type": "Feature", "properties": { "codgeo": "86194", "dep": "86", "reg2016": "75", "libgeo": "Poitiers", "libgeo_m": "POITIERS", "pop": 87435.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Poitiers", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "indefini", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 0.3594376040012, 46.583424776832317 ] } },
-{ "type": "Feature", "properties": { "codgeo": "87085", "dep": "87", "reg2016": "75", "libgeo": "Limoges", "libgeo_m": "LIMOGES", "pop": 134577.0, "NOM_REGION": "Nouvelle-Aquitaine", "JUMELAGE": "NON", "NOM_COM": "Limoges", "AV_PUBLIC": "Convention signée", "DATE_SIGN": "28 juin 2018", "ACTION": "8", "PROJET": null, "categorie": "sig", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 1.248953961701065, 45.854453146608854 ] } },
-{ "type": "Feature", "properties": { "codgeo": "25056", "dep": "25", "reg2016": "27", "libgeo": "Besançon", "libgeo_m": "BESANÇON", "pop": 116690.0, "NOM_REGION": "Bourgogne-Franche-Comté", "JUMELAGE": "NON", "NOM_COM": "Besançon", "AV_PUBLIC": "Convention signée avant le 30 septembre", "DATE_SIGN": "29 septembre 2018", "ACTION": null, "PROJET": null, "categorie": "non", "INTERNET": null }, "geometry": { "type": "Point", "coordinates": [ 6.019291240857432, 47.255151007934593 ] } }
-]
+var JS_coeurdeville = {
+  "type": "FeatureCollection",
+  "name": "COEURDEVILLE",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "80001",
+        "id_acv": "acv-001",
+        "lib_acv": "Abbeville",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Abbeville",
+        "insee_dep": "80",
+        "insee_reg": "32",
+        "siren_epci": "200070993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8322, 50.1086]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "34003",
+        "id_acv": "acv-002",
+        "lib_acv": "Agde",
+        "date_signature": "29/10/2018",
+        "actions_en_cours": 11,
+        "actions_livrees": 4,
+        "lib_reg": "Occitanie",
+        "lib_com": "Agde",
+        "insee_dep": "34",
+        "insee_reg": "76",
+        "siren_epci": "243400819"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.4839, 43.3096]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "47001",
+        "id_acv": "acv-003",
+        "lib_acv": "Agen",
+        "date_signature": "12/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Agen",
+        "insee_dep": "47",
+        "insee_reg": "75",
+        "siren_epci": "200096956"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.6254, 44.2025]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "2A004",
+        "id_acv": "acv-004",
+        "lib_acv": "Ajaccio",
+        "date_signature": "12/07/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Corse",
+        "lib_com": "Ajaccio",
+        "insee_dep": "2A",
+        "insee_reg": "94",
+        "siren_epci": "242010056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7022, 41.9352]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "81004",
+        "id_acv": "acv-005",
+        "lib_acv": "Albi",
+        "date_signature": "17/08/2018",
+        "actions_en_cours": 16,
+        "actions_livrees": 19,
+        "lib_reg": "Occitanie",
+        "lib_com": "Albi",
+        "insee_dep": "81",
+        "insee_reg": "76",
+        "siren_epci": "248100737"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1471, 43.926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "61001",
+        "id_acv": "acv-006",
+        "lib_acv": "AlenÃ§on",
+        "date_signature": "06/09/2018",
+        "actions_en_cours": 10,
+        "actions_livrees": 18,
+        "lib_reg": "Normandie",
+        "lib_com": "Alençon",
+        "insee_dep": "61",
+        "insee_reg": "28",
+        "siren_epci": "246100663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.0916, 48.4315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "30007",
+        "id_acv": "acv-007",
+        "lib_acv": "AlÃ¨s",
+        "date_signature": "10/10/2018",
+        "actions_en_cours": 8,
+        "actions_livrees": 22,
+        "lib_reg": "Occitanie",
+        "lib_com": "Alès",
+        "insee_dep": "30",
+        "insee_reg": "76",
+        "siren_epci": "200066918"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.089, 44.1261]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "01004",
+        "id_acv": "acv-008",
+        "lib_acv": "AmbÃ©rieu-en-Bugey",
+        "date_signature": "24/09/2019",
+        "actions_en_cours": 2,
+        "actions_livrees": 16,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Ambérieu-en-Bugey",
+        "insee_dep": "01",
+        "insee_reg": "84",
+        "siren_epci": "240100883"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.3719, 45.9608]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "16015",
+        "id_acv": "acv-009",
+        "lib_acv": "AngoulÃªme",
+        "date_signature": "14/06/2018",
+        "actions_en_cours": 1,
+        "actions_livrees": 5,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Angoulême",
+        "insee_dep": "16",
+        "insee_reg": "75",
+        "siren_epci": "200071827"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.1457, 45.6472]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "07010",
+        "id_acv": "acv-010",
+        "lib_acv": "Annonay",
+        "date_signature": "26/09/2018",
+        "actions_en_cours": 4,
+        "actions_livrees": 16,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Annonay",
+        "insee_dep": "07",
+        "insee_reg": "84",
+        "siren_epci": "200072015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.6503, 45.2463]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "61006",
+        "id_acv": "acv-011",
+        "lib_acv": "Argentan",
+        "date_signature": "17/09/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 31,
+        "lib_reg": "Normandie",
+        "lib_com": "Argentan",
+        "insee_dep": "61",
+        "insee_reg": "28",
+        "siren_epci": "200068450"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.014, 48.7338]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "13004",
+        "id_acv": "acv-012",
+        "lib_acv": "Arles",
+        "date_signature": "06/07/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Arles",
+        "insee_dep": "13",
+        "insee_reg": "93",
+        "siren_epci": "241300417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.6619, 43.5466]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "91021",
+        "id_acv": "acv-013",
+        "lib_acv": "Arpajon",
+        "date_signature": "13/10/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 8,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Arpajon",
+        "insee_dep": "91",
+        "insee_reg": "11",
+        "siren_epci": "200057859"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.244, 48.5905]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "62041",
+        "id_acv": "acv-014",
+        "lib_acv": "Arras",
+        "date_signature": "12/06/2018",
+        "actions_en_cours": 3,
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Arras",
+        "insee_dep": "62",
+        "insee_reg": "32",
+        "siren_epci": "200033579"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.7657, 50.2904]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "07019",
+        "id_acv": "acv-015",
+        "lib_acv": "Aubenas",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 9,
+        "actions_livrees": 16,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Aubenas",
+        "insee_dep": "07",
+        "insee_reg": "84",
+        "siren_epci": "200073245"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.395, 44.6101]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "32013",
+        "id_acv": "acv-016",
+        "lib_acv": "Auch",
+        "date_signature": "12/10/2018",
+        "actions_en_cours": 16,
+        "actions_livrees": 19,
+        "lib_reg": "Occitanie",
+        "lib_com": "Auch",
+        "insee_dep": "32",
+        "insee_reg": "76",
+        "siren_epci": "200066926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.5747, 43.653]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "15012",
+        "id_acv": "acv-017",
+        "lib_acv": "Aurillac-Arpajon-sur-CÃ¨re",
+        "date_signature": "20/09/2018",
+        "actions_en_cours": 2,
+        "actions_livrees": 11,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Arpajon-sur-Cère",
+        "insee_dep": "15",
+        "insee_reg": "84",
+        "siren_epci": "241500230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4643, 44.8767]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "15014",
+        "id_acv": "acv-017",
+        "lib_acv": "Aurillac-Arpajon-sur-CÃ¨re",
+        "date_signature": "20/09/2018",
+        "actions_en_cours": 2,
+        "actions_livrees": 11,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Aurillac",
+        "insee_dep": "15",
+        "insee_reg": "84",
+        "siren_epci": "241500230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4415, 44.9243]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "71014",
+        "id_acv": "acv-018",
+        "lib_acv": "Autun",
+        "date_signature": "20/09/2018",
+        "actions_en_cours": 8,
+        "actions_livrees": 9,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Autun",
+        "insee_dep": "71",
+        "insee_reg": "27",
+        "siren_epci": "200070530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.311, 46.946]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "89024",
+        "id_acv": "acv-019",
+        "lib_acv": "Auxerre",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Auxerre",
+        "insee_dep": "89",
+        "insee_reg": "27",
+        "siren_epci": "200067114"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.5819, 47.7941]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "84007",
+        "id_acv": "acv-020",
+        "lib_acv": "Avignon",
+        "date_signature": "16/11/2018",
+        "actions_en_cours": 2,
+        "actions_livrees": 20,
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Avignon",
+        "insee_dep": "84",
+        "insee_reg": "93",
+        "siren_epci": "248400251"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.8409, 43.9355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "30028",
+        "id_acv": "acv-021",
+        "lib_acv": "Bagnols-sur-CÃ¨ze",
+        "date_signature": "03/10/2018",
+        "actions_en_cours": 22,
+        "actions_livrees": 25,
+        "lib_reg": "Occitanie",
+        "lib_com": "Bagnols-sur-Cèze",
+        "insee_dep": "30",
+        "insee_reg": "76",
+        "siren_epci": "200034692"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.6255, 44.1622]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "55029",
+        "id_acv": "acv-022",
+        "lib_acv": "Bar-le-Duc",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 16,
+        "actions_livrees": 7,
+        "lib_reg": "Grand Est",
+        "lib_com": "Bar-le-Duc",
+        "insee_dep": "55",
+        "insee_reg": "44",
+        "siren_epci": "200033025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.1632, 48.7642]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97105",
+        "id_acv": "acv-023",
+        "lib_acv": "Basse-Terre",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 11,
+        "actions_livrees": 16,
+        "lib_reg": "Guadeloupe",
+        "lib_com": "Basse-Terre",
+        "insee_dep": "971",
+        "insee_reg": "01",
+        "siren_epci": "249710070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.4209, 45.0608]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "2B033",
+        "id_acv": "acv-024",
+        "lib_acv": "Bastia",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Corse",
+        "lib_com": "Bastia",
+        "insee_dep": "2B",
+        "insee_reg": "94",
+        "siren_epci": "242000354"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.4251, 42.6864]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "64102",
+        "id_acv": "acv-025",
+        "lib_acv": "Bayonne",
+        "date_signature": "11/12/2018",
+        "actions_en_cours": 11,
+        "actions_livrees": 8,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Bayonne",
+        "insee_dep": "64",
+        "insee_reg": "75",
+        "siren_epci": "200067106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.4664, 43.4917]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "95052",
+        "id_acv": "acv-026",
+        "lib_acv": "Beaumont-sur-Oise - Persan",
+        "date_signature": "06/12/2018",
+        "actions_en_cours": 17,
+        "actions_livrees": 36,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Beaumont-sur-Oise",
+        "insee_dep": "95",
+        "insee_reg": "11",
+        "siren_epci": "249500489"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3004, 49.1398]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "95487",
+        "id_acv": "acv-026",
+        "lib_acv": "Beaumont-sur-Oise - Persan",
+        "date_signature": "06/12/2018",
+        "actions_en_cours": 17,
+        "actions_livrees": 36,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Persan",
+        "insee_dep": "95",
+        "insee_reg": "11",
+        "siren_epci": "249500489"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2703, 49.1495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "60057",
+        "id_acv": "acv-027",
+        "lib_acv": "Beauvais",
+        "date_signature": "11/06/2018",
+        "actions_en_cours": 10,
+        "actions_livrees": 21,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Beauvais",
+        "insee_dep": "60",
+        "insee_reg": "32",
+        "siren_epci": "200067999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0867, 49.4362]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "90010",
+        "id_acv": "acv-028",
+        "lib_acv": "Belfort",
+        "date_signature": "01/09/2018",
+        "actions_en_cours": 8,
+        "actions_livrees": 14,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Belfort",
+        "insee_dep": "90",
+        "insee_reg": "27",
+        "siren_epci": "200069052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.8467, 47.6468]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "24037",
+        "id_acv": "acv-029",
+        "lib_acv": "Bergerac",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 30,
+        "actions_livrees": 17,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Bergerac",
+        "insee_dep": "24",
+        "insee_reg": "75",
+        "siren_epci": "200070647"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.4866, 44.8547]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "25056",
+        "id_acv": "acv-030",
+        "lib_acv": "BesanÃ§on",
+        "date_signature": "18/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": 6,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Besançon",
+        "insee_dep": "25",
+        "insee_reg": "27",
+        "siren_epci": "242500361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.0199, 47.2553]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "62119",
+        "id_acv": "acv-031",
+        "lib_acv": "BÃ©thune - Bruay-la-BuissiÃ¨re",
+        "date_signature": "24/09/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 34,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Béthune",
+        "insee_dep": "62",
+        "insee_reg": "32",
+        "siren_epci": "200072460"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6437, 50.5296]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "62178",
+        "id_acv": "acv-031",
+        "lib_acv": "BÃ©thune - Bruay-la-BuissiÃ¨re",
+        "date_signature": "24/09/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 34,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Bruay-la-Buissière",
+        "insee_dep": "62",
+        "insee_reg": "32",
+        "siren_epci": "200072460"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5523, 50.49]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "34032",
+        "id_acv": "acv-032",
+        "lib_acv": "BÃ©ziers",
+        "date_signature": "29/10/2018",
+        "actions_en_cours": 30,
+        "actions_livrees": 18,
+        "lib_reg": "Occitanie",
+        "lib_com": "Béziers",
+        "insee_dep": "34",
+        "insee_reg": "76",
+        "siren_epci": "243400769"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.2307, 43.3477]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "41018",
+        "id_acv": "acv-033",
+        "lib_acv": "Blois",
+        "date_signature": "05/07/2018",
+        "actions_en_cours": 18,
+        "actions_livrees": 22,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Blois",
+        "insee_dep": "41",
+        "insee_reg": "24",
+        "siren_epci": "200030385"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.3061, 47.5818]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "62160",
+        "id_acv": "acv-034",
+        "lib_acv": "Boulogne-sur-Mer",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 25,
+        "actions_livrees": 56,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Boulogne-sur-Mer",
+        "insee_dep": "62",
+        "insee_reg": "32",
+        "siren_epci": "246200729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.6056, 50.7277]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "01053",
+        "id_acv": "acv-035",
+        "lib_acv": "Bourg-en-Bresse",
+        "date_signature": "30/09/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 22,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Bourg-en-Bresse",
+        "insee_dep": "01",
+        "insee_reg": "84",
+        "siren_epci": "200071751"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.2456, 46.205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "18033",
+        "id_acv": "acv-036",
+        "lib_acv": "Bourges",
+        "date_signature": "01/10/2018",
+        "actions_en_cours": 34,
+        "actions_livrees": 24,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Bourges",
+        "insee_dep": "18",
+        "insee_reg": "24",
+        "siren_epci": "241800507"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4044, 47.075]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "38053",
+        "id_acv": "acv-037",
+        "lib_acv": "Bourgoin-Jallieu",
+        "date_signature": "06/11/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": 11,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Bourgoin-Jallieu",
+        "insee_dep": "38",
+        "insee_reg": "84",
+        "siren_epci": "243800604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.274, 45.6025]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "79049",
+        "id_acv": "acv-038",
+        "lib_acv": "Bressuire",
+        "date_signature": "18/09/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 9,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Bressuire",
+        "insee_dep": "79",
+        "insee_reg": "75",
+        "siren_epci": "200040244"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.4794, 46.8546]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "05023",
+        "id_acv": "acv-039",
+        "lib_acv": "BrianÃ§on",
+        "date_signature": "21/09/2018",
+        "actions_en_cours": 13,
+        "actions_livrees": 3,
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Briançon",
+        "insee_dep": "05",
+        "insee_reg": "93",
+        "siren_epci": "240500439"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.6498, 44.8997]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "83023",
+        "id_acv": "acv-040",
+        "lib_acv": "Brignoles",
+        "date_signature": "01/10/2018",
+        "actions_en_cours": 10,
+        "actions_livrees": 14,
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Brignoles",
+        "insee_dep": "83",
+        "insee_reg": "93",
+        "siren_epci": "200068104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.0777, 43.3996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "19031",
+        "id_acv": "acv-041",
+        "lib_acv": "Brive-la-Gaillarde",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Brive-la-Gaillarde",
+        "insee_dep": "19",
+        "insee_reg": "75",
+        "siren_epci": "200043172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.5191, 45.1435]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "46042",
+        "id_acv": "acv-042",
+        "lib_acv": "Cahors",
+        "date_signature": "13/07/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 17,
+        "lib_reg": "Occitanie",
+        "lib_com": "Cahors",
+        "insee_dep": "46",
+        "insee_reg": "76",
+        "siren_epci": "200023737"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.4411, 44.4504]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "62193",
+        "id_acv": "acv-043",
+        "lib_acv": "Calais",
+        "date_signature": "08/10/2018",
+        "actions_en_cours": 8,
+        "actions_livrees": 19,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Calais",
+        "insee_dep": "62",
+        "insee_reg": "32",
+        "siren_epci": "200090751"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8745, 50.952]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "59122",
+        "id_acv": "acv-044",
+        "lib_acv": "Cambrai",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Cambrai",
+        "insee_dep": "59",
+        "insee_reg": "32",
+        "siren_epci": "200068500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.2415, 50.17]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "11069",
+        "id_acv": "acv-045",
+        "lib_acv": "Carcassonne",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 4,
+        "actions_livrees": 16,
+        "lib_reg": "Occitanie",
+        "lib_com": "Carcassonne",
+        "insee_dep": "11",
+        "insee_reg": "76",
+        "siren_epci": "200035715"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3429, 43.2095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "84031",
+        "id_acv": "acv-046",
+        "lib_acv": "Carpentras",
+        "date_signature": "28/11/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 3,
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Carpentras",
+        "insee_dep": "84",
+        "insee_reg": "93",
+        "siren_epci": "248400053"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.0618, 44.0595]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "81065",
+        "id_acv": "acv-047",
+        "lib_acv": "Castres - Mazamet",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 19,
+        "lib_reg": "Occitanie",
+        "lib_com": "Castres",
+        "insee_dep": "81",
+        "insee_reg": "76",
+        "siren_epci": "248100430"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2381, 43.6157]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "81163",
+        "id_acv": "acv-047",
+        "lib_acv": "Castres - Mazamet",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 19,
+        "lib_reg": "Occitanie",
+        "lib_com": "Mazamet",
+        "insee_dep": "81",
+        "insee_reg": "76",
+        "siren_epci": "248100430"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3888, 43.4579]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "84035",
+        "id_acv": "acv-048",
+        "lib_acv": "Cavaillon",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 4,
+        "actions_livrees": 9,
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Cavaillon",
+        "insee_dep": "84",
+        "insee_reg": "93",
+        "siren_epci": "200040442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.036, 43.8506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97302",
+        "id_acv": "acv-049",
+        "lib_acv": "Cayenne",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Guyane",
+        "lib_com": "Cayenne",
+        "insee_dep": "973",
+        "insee_reg": "03",
+        "siren_epci": "249730045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.333, 42.9775]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "71076",
+        "id_acv": "acv-050",
+        "lib_acv": "Chalon-sur-SaÃ´ne",
+        "date_signature": "18/10/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 29,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Chalon-sur-Saône",
+        "insee_dep": "71",
+        "insee_reg": "27",
+        "siren_epci": "247100589"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.8521, 46.7897]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "51108",
+        "id_acv": "acv-051",
+        "lib_acv": "ChÃ¢lons-en-Champagne",
+        "date_signature": "08/06/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Grand Est",
+        "lib_com": "Châlons-en-Champagne",
+        "insee_dep": "51",
+        "insee_reg": "44",
+        "siren_epci": "200066876"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.3783, 48.9644]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "73065",
+        "id_acv": "acv-052",
+        "lib_acv": "ChambÃ©ry",
+        "date_signature": "29/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Chambéry",
+        "insee_dep": "73",
+        "insee_reg": "84",
+        "siren_epci": "200069110"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.9089, 45.5831]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "08105",
+        "id_acv": "acv-053",
+        "lib_acv": "Charleville-MÃ©ziÃ¨res",
+        "date_signature": "27/07/2018",
+        "actions_en_cours": 37,
+        "actions_livrees": 40,
+        "lib_reg": "Grand Est",
+        "lib_com": "Charleville-Mézières",
+        "insee_dep": "08",
+        "insee_reg": "44",
+        "siren_epci": "200041630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.7173, 49.7749]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "28085",
+        "id_acv": "acv-054",
+        "lib_acv": "Chartres",
+        "date_signature": "13/07/2018",
+        "actions_en_cours": 9,
+        "actions_livrees": 15,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Chartres",
+        "insee_dep": "28",
+        "insee_reg": "24",
+        "siren_epci": "200033181"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.5063, 48.4471]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "02168",
+        "id_acv": "acv-055",
+        "lib_acv": "ChÃ¢teau-Thierry",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 18,
+        "actions_livrees": 36,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Château-Thierry",
+        "insee_dep": "02",
+        "insee_reg": "32",
+        "siren_epci": "200072031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.3812, 49.057]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "44036",
+        "id_acv": "acv-056",
+        "lib_acv": "ChÃ¢teaubriant",
+        "date_signature": "07/09/2018",
+        "actions_en_cours": 9,
+        "actions_livrees": 11,
+        "lib_reg": "Pays de la Loire",
+        "lib_com": "Châteaubriant",
+        "insee_dep": "44",
+        "insee_reg": "52",
+        "siren_epci": "200072726"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.3871, 47.7219]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "36044",
+        "id_acv": "acv-057",
+        "lib_acv": "ChÃ¢teauroux",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 19,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Châteauroux",
+        "insee_dep": "36",
+        "insee_reg": "24",
+        "siren_epci": "243600327"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.6938, 46.8032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "86066",
+        "id_acv": "acv-058",
+        "lib_acv": "ChÃ¢tellerault",
+        "date_signature": "11/07/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Châtellerault",
+        "insee_dep": "86",
+        "insee_reg": "75",
+        "siren_epci": "248600413"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.5525, 46.8154]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "52121",
+        "id_acv": "acv-059",
+        "lib_acv": "Chaumont",
+        "date_signature": "11/10/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 4,
+        "lib_reg": "Grand Est",
+        "lib_com": "Chaumont",
+        "insee_dep": "52",
+        "insee_reg": "44",
+        "siren_epci": "200068658"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.1402, 48.0977]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "50129",
+        "id_acv": "acv-060",
+        "lib_acv": "Cherbourg-en-Cotentin",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Normandie",
+        "lib_com": "Cherbourg-en-Cotentin",
+        "insee_dep": "50",
+        "insee_reg": "28",
+        "siren_epci": "200067205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.62, 49.6315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "37072",
+        "id_acv": "acv-061",
+        "lib_acv": "Chinon",
+        "date_signature": "11/07/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 1,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Chinon",
+        "insee_dep": "37",
+        "insee_reg": "24",
+        "siren_epci": "200043081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.245, 47.1721]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "49099",
+        "id_acv": "acv-062",
+        "lib_acv": "Cholet",
+        "date_signature": "22/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Pays de la Loire",
+        "lib_com": "Cholet",
+        "insee_dep": "49",
+        "insee_reg": "52",
+        "siren_epci": "200071678"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.8771, 47.0462]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "16102",
+        "id_acv": "acv-063",
+        "lib_acv": "Cognac",
+        "date_signature": "14/06/2018",
+        "actions_en_cours": 34,
+        "actions_livrees": 29,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Cognac",
+        "insee_dep": "16",
+        "insee_reg": "75",
+        "siren_epci": "200070514"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.335, 45.6967]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "68066",
+        "id_acv": "acv-064",
+        "lib_acv": "Colmar",
+        "date_signature": "23/08/2018",
+        "actions_en_cours": 26,
+        "actions_livrees": 23,
+        "lib_reg": "Grand Est",
+        "lib_com": "Colmar",
+        "insee_dep": "68",
+        "insee_reg": "44",
+        "siren_epci": "246800726"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.3843, 48.1095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "60159",
+        "id_acv": "acv-065",
+        "lib_acv": "CompiÃ¨gne",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 6,
+        "actions_livrees": 14,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Compiègne",
+        "insee_dep": "60",
+        "insee_reg": "32",
+        "siren_epci": "200067965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.853, 49.3992]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "91174",
+        "id_acv": "acv-066",
+        "lib_acv": "Corbeil-Essonnes",
+        "date_signature": "02/10/2018",
+        "actions_en_cours": 13,
+        "actions_livrees": 9,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Corbeil-Essonnes",
+        "insee_dep": "91",
+        "insee_reg": "11",
+        "siren_epci": "200059228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4683, 48.6049]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "58086",
+        "id_acv": "acv-067",
+        "lib_acv": "Cosne-Cours-sur-Loire",
+        "date_signature": "19/11/2018",
+        "actions_en_cours": 8,
+        "actions_livrees": 10,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Cosne-Cours-sur-Loire",
+        "insee_dep": "58",
+        "insee_reg": "27",
+        "siren_epci": "200067916"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.9424, 47.4026]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "77131",
+        "id_acv": "acv-068",
+        "lib_acv": "Coulommiers",
+        "date_signature": "25/10/2018",
+        "actions_en_cours": 11,
+        "actions_livrees": 12,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Coulommiers",
+        "insee_dep": "77",
+        "insee_reg": "11",
+        "siren_epci": "200090504"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.0906, 48.8125]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "60175",
+        "id_acv": "acv-069",
+        "lib_acv": "Creil",
+        "date_signature": "04/07/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Creil",
+        "insee_dep": "60",
+        "insee_reg": "32",
+        "siren_epci": "200068047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4835, 49.2534]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "40088",
+        "id_acv": "acv-070",
+        "lib_acv": "Dax",
+        "date_signature": "25/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Dax",
+        "insee_dep": "40",
+        "insee_reg": "75",
+        "siren_epci": "244000675"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.06, 43.7012]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97607",
+        "id_acv": "acv-071",
+        "lib_acv": "Dembeni",
+        "date_signature": "06/11/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Mayotte",
+        "lib_com": "Dembeni",
+        "insee_dep": "976",
+        "insee_reg": "06",
+        "siren_epci": "200060457"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.0788, 45.4927]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "59172",
+        "id_acv": "acv-072",
+        "lib_acv": "Denain",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Denain",
+        "insee_dep": "59",
+        "insee_reg": "32",
+        "siren_epci": "200042190"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.3899, 50.3298]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "76217",
+        "id_acv": "acv-073",
+        "lib_acv": "Dieppe",
+        "date_signature": "05/07/2018",
+        "actions_en_cours": 46,
+        "actions_livrees": 70,
+        "lib_reg": "Normandie",
+        "lib_com": "Dieppe",
+        "insee_dep": "76",
+        "insee_reg": "28",
+        "siren_epci": "247600786"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.0865, 49.9217]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "04070",
+        "id_acv": "acv-074",
+        "lib_acv": "Digne-les-Bains",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 16,
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Digne-les-Bains",
+        "insee_dep": "04",
+        "insee_reg": "93",
+        "siren_epci": "200067437"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.2354, 44.088]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "39198",
+        "id_acv": "acv-075",
+        "lib_acv": "Dole",
+        "date_signature": "21/06/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 40,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Dole",
+        "insee_dep": "39",
+        "insee_reg": "27",
+        "siren_epci": "200010650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.501, 47.0758]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "59178",
+        "id_acv": "acv-076",
+        "lib_acv": "Douai",
+        "date_signature": "20/09/2018",
+        "actions_en_cours": 11,
+        "actions_livrees": 13,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Douai",
+        "insee_dep": "59",
+        "insee_reg": "32",
+        "siren_epci": "200044618"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.0914, 50.3824]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "83050",
+        "id_acv": "acv-077",
+        "lib_acv": "Draguignan",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 30,
+        "actions_livrees": 40,
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Draguignan",
+        "insee_dep": "83",
+        "insee_reg": "93",
+        "siren_epci": "248300493"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.4546, 43.536]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "28134",
+        "id_acv": "acv-078",
+        "lib_acv": "Dreux",
+        "date_signature": "09/07/2018",
+        "actions_en_cours": 34,
+        "actions_livrees": 43,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Dreux",
+        "insee_dep": "28",
+        "insee_reg": "24",
+        "siren_epci": "200040277"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.3595, 48.7485]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "59183",
+        "id_acv": "acv-079",
+        "lib_acv": "Dunkerque",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Dunkerque",
+        "insee_dep": "59",
+        "insee_reg": "32",
+        "siren_epci": "245900428"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3564, 51.0335]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97608",
+        "id_acv": "acv-080",
+        "lib_acv": "Dzaoudzi - Pamandzi",
+        "date_signature": "06/11/2018",
+        "actions_en_cours": 1,
+        "actions_livrees": 10,
+        "lib_reg": "Mayotte",
+        "lib_com": "Dzaoudzi",
+        "insee_dep": "976",
+        "insee_reg": "06",
+        "siren_epci": "200050532"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.8309, 45.6349]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97615",
+        "id_acv": "acv-080",
+        "lib_acv": "Dzaoudzi - Pamandzi",
+        "date_signature": "06/11/2018",
+        "actions_en_cours": 1,
+        "actions_livrees": 10,
+        "lib_reg": "Mayotte",
+        "lib_com": "Pamandzi",
+        "insee_dep": "976",
+        "insee_reg": "06",
+        "siren_epci": "200050532"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.8243, 45.602]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "51230",
+        "id_acv": "acv-081",
+        "lib_acv": "Ã‰pernay",
+        "date_signature": "01/10/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 5,
+        "lib_reg": "Grand Est",
+        "lib_com": "Épernay",
+        "insee_dep": "51",
+        "insee_reg": "44",
+        "siren_epci": "200067684"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.932, 49.0371]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "88160",
+        "id_acv": "acv-082",
+        "lib_acv": "Ã‰pinal",
+        "date_signature": "11/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Grand Est",
+        "lib_com": "Épinal",
+        "insee_dep": "88",
+        "insee_reg": "44",
+        "siren_epci": "200068757"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.4794, 48.1633]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "91223",
+        "id_acv": "acv-083",
+        "lib_acv": "Ã‰tampes",
+        "date_signature": "09/10/2018",
+        "actions_en_cours": 2,
+        "actions_livrees": 3,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Étampes",
+        "insee_dep": "91",
+        "insee_reg": "11",
+        "siren_epci": "200017846"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1372, 48.422]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "27229",
+        "id_acv": "acv-084",
+        "lib_acv": "Ã‰vreux",
+        "date_signature": "06/07/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 8,
+        "lib_reg": "Normandie",
+        "lib_com": "Évreux",
+        "insee_dep": "27",
+        "insee_reg": "28",
+        "siren_epci": "200071454"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.1418, 49.0196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "91228",
+        "id_acv": "acv-085",
+        "lib_acv": "Ã‰vry",
+        "date_signature": "31/10/2018",
+        "actions_en_cours": 20,
+        "actions_livrees": 6,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Évry-Courcouronnes",
+        "insee_dep": "91",
+        "insee_reg": "11",
+        "siren_epci": "200059228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4299, 48.6267]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "76259",
+        "id_acv": "acv-086",
+        "lib_acv": "FÃ©camp",
+        "date_signature": "04/07/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Normandie",
+        "lib_com": "Fécamp",
+        "insee_dep": "76",
+        "insee_reg": "28",
+        "siren_epci": "200069821"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.3944, 49.7522]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "46102",
+        "id_acv": "acv-087",
+        "lib_acv": "Figeac",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 10,
+        "actions_livrees": 18,
+        "lib_reg": "Occitanie",
+        "lib_com": "Figeac",
+        "insee_dep": "46",
+        "insee_reg": "76",
+        "siren_epci": "200067361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0255, 44.6052]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "61169",
+        "id_acv": "acv-088",
+        "lib_acv": "Flers",
+        "date_signature": "13/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Normandie",
+        "lib_com": "Flers",
+        "insee_dep": "61",
+        "insee_reg": "28",
+        "siren_epci": "200035814"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.5627, 48.7399]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "09122",
+        "id_acv": "acv-089",
+        "lib_acv": "Foix",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 15,
+        "actions_livrees": 41,
+        "lib_reg": "Occitanie",
+        "lib_com": "Foix",
+        "insee_dep": "09",
+        "insee_reg": "76",
+        "siren_epci": "200067791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.6102, 42.9652]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "77014",
+        "id_acv": "acv-090",
+        "lib_acv": "Fontainebleau - Avon",
+        "date_signature": "09/10/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 22,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Avon",
+        "insee_dep": "77",
+        "insee_reg": "11",
+        "siren_epci": "200072346"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.7356, 48.4154]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "77186",
+        "id_acv": "acv-090",
+        "lib_acv": "Fontainebleau - Avon",
+        "date_signature": "09/10/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 22,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Fontainebleau",
+        "insee_dep": "77",
+        "insee_reg": "11",
+        "siren_epci": "200072346"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6812, 48.4063]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "85092",
+        "id_acv": "acv-091",
+        "lib_acv": "Fontenay-le-Comte",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 9,
+        "actions_livrees": 10,
+        "lib_reg": "Pays de la Loire",
+        "lib_com": "Fontenay-le-Comte",
+        "insee_dep": "85",
+        "insee_reg": "52",
+        "siren_epci": "200071934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.7935, 46.4562]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "57227",
+        "id_acv": "acv-092",
+        "lib_acv": "Forbach",
+        "date_signature": "19/08/2018",
+        "actions_en_cours": 4,
+        "actions_livrees": 6,
+        "lib_reg": "Grand Est",
+        "lib_com": "Forbach",
+        "insee_dep": "57",
+        "insee_reg": "44",
+        "siren_epci": "245700372"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.8928, 49.1918]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97209",
+        "id_acv": "acv-093",
+        "lib_acv": "Fort-de-France",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Martinique",
+        "lib_com": "Fort-de-France",
+        "insee_dep": "972",
+        "insee_reg": "02",
+        "siren_epci": "249720061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7355, 44.0546]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "35115",
+        "id_acv": "acv-094",
+        "lib_acv": "FougÃ¨res",
+        "date_signature": "04/10/2018",
+        "actions_en_cours": 15,
+        "actions_livrees": 20,
+        "lib_reg": "Bretagne",
+        "lib_com": "Fougères",
+        "insee_dep": "35",
+        "insee_reg": "53",
+        "siren_epci": "200072452"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.1939, 48.353]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "05061",
+        "id_acv": "acv-095",
+        "lib_acv": "Gap",
+        "date_signature": "21/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Gap",
+        "insee_dep": "05",
+        "insee_reg": "93",
+        "siren_epci": "200067825"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.0647, 44.5806]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "45155",
+        "id_acv": "acv-096",
+        "lib_acv": "Gien",
+        "date_signature": "11/07/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 21,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Gien",
+        "insee_dep": "45",
+        "insee_reg": "24",
+        "siren_epci": "244500211"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6649, 47.7123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "95277",
+        "id_acv": "acv-097",
+        "lib_acv": "Gonesse",
+        "date_signature": "14/11/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Île-de-France",
+        "lib_com": "Gonesse",
+        "insee_dep": "95",
+        "insee_reg": "11",
+        "siren_epci": "200055655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4574, 48.9866]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "06069",
+        "id_acv": "acv-098",
+        "lib_acv": "Grasse",
+        "date_signature": "14/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Grasse",
+        "insee_dep": "06",
+        "insee_reg": "93",
+        "siren_epci": "200039857"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.9318, 43.6559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "68112",
+        "id_acv": "acv-099",
+        "lib_acv": "Guebwiller",
+        "date_signature": "07/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Grand Est",
+        "lib_com": "Guebwiller",
+        "insee_dep": "68",
+        "insee_reg": "44",
+        "siren_epci": "246800569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.2107, 47.9101]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "23096",
+        "id_acv": "acv-100",
+        "lib_acv": "GuÃ©ret",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 6,
+        "actions_livrees": 2,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Guéret",
+        "insee_dep": "23",
+        "insee_reg": "75",
+        "siren_epci": "200034825"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8713, 46.1625]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "67180",
+        "id_acv": "acv-101",
+        "lib_acv": "Haguenau",
+        "date_signature": "22/08/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Grand Est",
+        "lib_com": "Haguenau",
+        "insee_dep": "67",
+        "insee_reg": "44",
+        "siren_epci": "200067874"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.8307, 48.8421]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "63178",
+        "id_acv": "acv-102",
+        "lib_acv": "Issoire",
+        "date_signature": "03/12/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 17,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Issoire",
+        "insee_dep": "63",
+        "insee_reg": "84",
+        "siren_epci": "200070407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.2445, 45.5456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "36088",
+        "id_acv": "acv-103",
+        "lib_acv": "Issoudun",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 6,
+        "actions_livrees": 8,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Issoudun",
+        "insee_dep": "36",
+        "insee_reg": "24",
+        "siren_epci": "243600236"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.9996, 46.9486]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "72154",
+        "id_acv": "acv-104",
+        "lib_acv": "La FlÃ¨che - SablÃ©-sur-Sarthe",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 36,
+        "actions_livrees": 28,
+        "lib_reg": "Pays de la Loire",
+        "lib_com": "La Flèche",
+        "insee_dep": "72",
+        "insee_reg": "52",
+        "siren_epci": "247200348"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.0644, 47.6891]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "72264",
+        "id_acv": "acv-104",
+        "lib_acv": "La FlÃ¨che - SablÃ©-sur-Sarthe",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 36,
+        "actions_livrees": 28,
+        "lib_reg": "Pays de la Loire",
+        "lib_com": "Sablé-sur-Sarthe",
+        "insee_dep": "72",
+        "insee_reg": "52",
+        "siren_epci": "247200090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.3548, 47.8376]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "85191",
+        "id_acv": "acv-105",
+        "lib_acv": "La Roche-sur-Yon",
+        "date_signature": "02/10/2018",
+        "actions_en_cours": 17,
+        "actions_livrees": 29,
+        "lib_reg": "Pays de la Loire",
+        "lib_com": "La Roche-sur-Yon",
+        "insee_dep": "85",
+        "insee_reg": "52",
+        "siren_epci": "248500589"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.4074, 46.6675]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "22113",
+        "id_acv": "acv-106",
+        "lib_acv": "Lannion",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 25,
+        "lib_reg": "Bretagne",
+        "lib_com": "Lannion",
+        "insee_dep": "22",
+        "insee_reg": "53",
+        "siren_epci": "200065928"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.4614, 48.7441]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "02408",
+        "id_acv": "acv-107",
+        "lib_acv": "Laon",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 11,
+        "actions_livrees": 10,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Laon",
+        "insee_dep": "02",
+        "insee_reg": "32",
+        "siren_epci": "200043495"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.6211, 49.5679]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "53130",
+        "id_acv": "acv-108",
+        "lib_acv": "Laval",
+        "date_signature": "27/07/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 3,
+        "lib_reg": "Pays de la Loire",
+        "lib_com": "Laval",
+        "insee_dep": "53",
+        "insee_reg": "52",
+        "siren_epci": "200083392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.7661, 48.0609]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "71153",
+        "id_acv": "acv-109",
+        "lib_acv": "Le Creusot",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 46,
+        "actions_livrees": 18,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Le Creusot",
+        "insee_dep": "71",
+        "insee_reg": "27",
+        "siren_epci": "247100290"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.4274, 46.8066]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97213",
+        "id_acv": "acv-110",
+        "lib_acv": "Le Lamentin",
+        "date_signature": "03/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Martinique",
+        "lib_com": "Le Lamentin",
+        "insee_dep": "972",
+        "insee_reg": "02",
+        "siren_epci": "249720061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5902, 44.0473]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97407",
+        "id_acv": "acv-111",
+        "lib_acv": "Le Port",
+        "date_signature": "15/01/2019",
+        "actions_en_cours": 21,
+        "actions_livrees": 16,
+        "lib_reg": "La Réunion",
+        "lib_com": "Le Port",
+        "insee_dep": "974",
+        "insee_reg": "04",
+        "siren_epci": "249740101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.732, 44.7896]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "43157",
+        "id_acv": "acv-112",
+        "lib_acv": "Le Puy-en-Velay",
+        "date_signature": "21/01/2019",
+        "actions_en_cours": 2,
+        "actions_livrees": 7,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Le Puy-en-Velay",
+        "insee_dep": "43",
+        "insee_reg": "84",
+        "siren_epci": "200073419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.8955, 45.0277]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "62498",
+        "id_acv": "acv-113",
+        "lib_acv": "Lens - LiÃ©vin",
+        "date_signature": "20/09/2018",
+        "actions_en_cours": 3,
+        "actions_livrees": 27,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Lens",
+        "insee_dep": "62",
+        "insee_reg": "32",
+        "siren_epci": "246200364"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.8212, 50.4376]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "62510",
+        "id_acv": "acv-113",
+        "lib_acv": "Lens - LiÃ©vin",
+        "date_signature": "20/09/2018",
+        "actions_en_cours": 3,
+        "actions_livrees": 27,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Liévin",
+        "insee_dep": "62",
+        "insee_reg": "32",
+        "siren_epci": "246200364"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.7735, 50.424]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97101",
+        "id_acv": "acv-114",
+        "lib_acv": "Les Abymes - Pointe-Ã -Pitre",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 10,
+        "lib_reg": "Guadeloupe",
+        "lib_com": "Les Abymes",
+        "insee_dep": "971",
+        "insee_reg": "01",
+        "siren_epci": "200018653"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.0499, 45.4613]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97120",
+        "id_acv": "acv-114",
+        "lib_acv": "Les Abymes - Pointe-Ã -Pitre",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 8,
+        "actions_livrees": 17,
+        "lib_reg": "Guadeloupe",
+        "lib_com": "Pointe-à-Pitre",
+        "insee_dep": "971",
+        "insee_reg": "01",
+        "siren_epci": "200018653"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.1083, 45.4118]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "78401",
+        "id_acv": "acv-115",
+        "lib_acv": "Les Mureaux â€“ Melan-en-Yvelines",
+        "date_signature": "08/10/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 10,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Meulan-en-Yvelines",
+        "insee_dep": "78",
+        "insee_reg": "11",
+        "siren_epci": "200059889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.9135, 49.0066]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "78440",
+        "id_acv": "acv-115",
+        "lib_acv": "Les Mureaux â€“ Melan-en-Yvelines",
+        "date_signature": "08/10/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 10,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Les Mureaux",
+        "insee_dep": "78",
+        "insee_reg": "11",
+        "siren_epci": "200059889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.9137, 48.9889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "33243",
+        "id_acv": "acv-116",
+        "lib_acv": "Libourne",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Libourne",
+        "insee_dep": "33",
+        "insee_reg": "75",
+        "siren_epci": "200070092"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.2346, 44.9133]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "78335",
+        "id_acv": "acv-117",
+        "lib_acv": "Limay - Mantes-la-Jolie",
+        "date_signature": "05/10/2018",
+        "actions_en_cours": 16,
+        "actions_livrees": 21,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Limay",
+        "insee_dep": "78",
+        "insee_reg": "11",
+        "siren_epci": "200059889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.7403, 48.9945]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "78361",
+        "id_acv": "acv-117",
+        "lib_acv": "Limay - Mantes-la-Jolie",
+        "date_signature": "05/10/2018",
+        "actions_en_cours": 16,
+        "actions_livrees": 21,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Mantes-la-Jolie",
+        "insee_dep": "78",
+        "insee_reg": "11",
+        "siren_epci": "200059889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.6942, 48.9983]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "87085",
+        "id_acv": "acv-118",
+        "lib_acv": "Limoges",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 15,
+        "actions_livrees": 12,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Limoges",
+        "insee_dep": "87",
+        "insee_reg": "75",
+        "siren_epci": "248719312"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.2483, 45.8534]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "14366",
+        "id_acv": "acv-119",
+        "lib_acv": "Lisieux",
+        "date_signature": "25/09/2018",
+        "actions_en_cours": 17,
+        "actions_livrees": 25,
+        "lib_reg": "Normandie",
+        "lib_com": "Lisieux",
+        "insee_dep": "14",
+        "insee_reg": "28",
+        "siren_epci": "200069532"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.2377, 49.1469]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "54323",
+        "id_acv": "acv-120",
+        "lib_acv": "Longwy",
+        "date_signature": "18/10/2018",
+        "actions_en_cours": 9,
+        "actions_livrees": 30,
+        "lib_reg": "Grand Est",
+        "lib_com": "Longwy",
+        "insee_dep": "54",
+        "insee_reg": "44",
+        "siren_epci": "245400262"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.7672, 49.5209]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "39300",
+        "id_acv": "acv-121",
+        "lib_acv": "Lons-le-Saunier",
+        "date_signature": "20/06/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 44,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Lons-le-Saunier",
+        "insee_dep": "39",
+        "insee_reg": "27",
+        "siren_epci": "200071116"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.5573, 46.6746]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "56121",
+        "id_acv": "acv-122",
+        "lib_acv": "Lorient",
+        "date_signature": "25/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Bretagne",
+        "lib_com": "Lorient",
+        "insee_dep": "56",
+        "insee_reg": "53",
+        "siren_epci": "200042174"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.3786, 47.7506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "65286",
+        "id_acv": "acv-123",
+        "lib_acv": "Lourdes",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 9,
+        "actions_livrees": 21,
+        "lib_reg": "Occitanie",
+        "lib_com": "Lourdes",
+        "insee_dep": "65",
+        "insee_reg": "76",
+        "siren_epci": "200069300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.0583, 43.0981]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "27375",
+        "id_acv": "acv-124",
+        "lib_acv": "Louviers",
+        "date_signature": "01/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Normandie",
+        "lib_com": "Louviers",
+        "insee_dep": "27",
+        "insee_reg": "28",
+        "siren_epci": "200089456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.1542, 49.2205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "34145",
+        "id_acv": "acv-125",
+        "lib_acv": "Lunel",
+        "date_signature": "22/10/2018",
+        "actions_en_cours": 4,
+        "actions_livrees": 9,
+        "lib_reg": "Occitanie",
+        "lib_com": "Lunel",
+        "insee_dep": "34",
+        "insee_reg": "76",
+        "siren_epci": "243400520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.1358, 43.6821]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "54329",
+        "id_acv": "acv-126",
+        "lib_acv": "LunÃ©ville",
+        "date_signature": "08/06/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 16,
+        "lib_reg": "Grand Est",
+        "lib_com": "Lunéville",
+        "insee_dep": "54",
+        "insee_reg": "44",
+        "siren_epci": "200070324"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.4984, 48.5918]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "71270",
+        "id_acv": "acv-127",
+        "lib_acv": "MÃ¢con",
+        "date_signature": "22/10/2018",
+        "actions_en_cours": 29,
+        "actions_livrees": 32,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Mâcon",
+        "insee_dep": "71",
+        "insee_reg": "27",
+        "siren_epci": "200070308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.8124, 46.3017]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97611",
+        "id_acv": "acv-128",
+        "lib_acv": "Mamoudzou",
+        "date_signature": "06/11/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 4,
+        "lib_reg": "Mayotte",
+        "lib_com": "Mamoudzou",
+        "insee_dep": "976",
+        "insee_reg": "06",
+        "siren_epci": "200060457"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.0456, 45.605]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "04112",
+        "id_acv": "acv-129",
+        "lib_acv": "Manosque",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 10,
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Manosque",
+        "insee_dep": "04",
+        "insee_reg": "93",
+        "siren_epci": "200034700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.7909, 43.8352]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "47157",
+        "id_acv": "acv-130",
+        "lib_acv": "Marmande - Tonneins",
+        "date_signature": "26/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Marmande",
+        "insee_dep": "47",
+        "insee_reg": "75",
+        "siren_epci": "200030674"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.1717, 44.5049]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "47310",
+        "id_acv": "acv-130",
+        "lib_acv": "Marmande - Tonneins",
+        "date_signature": "26/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Tonneins",
+        "insee_dep": "47",
+        "insee_reg": "75",
+        "siren_epci": "200030674"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.325, 44.3832]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "59392",
+        "id_acv": "acv-131",
+        "lib_acv": "Maubeuge",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 16,
+        "actions_livrees": 5,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Maubeuge",
+        "insee_dep": "59",
+        "insee_reg": "32",
+        "siren_epci": "200043396"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.963, 50.2847]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "77284",
+        "id_acv": "acv-132",
+        "lib_acv": "Meaux",
+        "date_signature": "22/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Île-de-France",
+        "lib_com": "Meaux",
+        "insee_dep": "77",
+        "insee_reg": "11",
+        "siren_epci": "200072130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.8994, 48.9569]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "77288",
+        "id_acv": "acv-133",
+        "lib_acv": "Melun",
+        "date_signature": "10/10/2018",
+        "actions_en_cours": 11,
+        "actions_livrees": 23,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Melun",
+        "insee_dep": "77",
+        "insee_reg": "11",
+        "siren_epci": "247700057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6581, 48.5444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "48095",
+        "id_acv": "acv-134",
+        "lib_acv": "Mende",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 18,
+        "actions_livrees": 21,
+        "lib_reg": "Occitanie",
+        "lib_com": "Mende",
+        "insee_dep": "48",
+        "insee_reg": "76",
+        "siren_epci": "244800405"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.4816, 44.5292]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "12145",
+        "id_acv": "acv-135",
+        "lib_acv": "Millau",
+        "date_signature": "05/10/2018",
+        "actions_en_cours": 1,
+        "actions_livrees": "NA",
+        "lib_reg": "Occitanie",
+        "lib_com": "Millau",
+        "insee_dep": "12",
+        "insee_reg": "76",
+        "siren_epci": "241200567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.117, 44.0976]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "40192",
+        "id_acv": "acv-136",
+        "lib_acv": "Mont-de-Marsan",
+        "date_signature": "11/09/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 10,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Mont-de-Marsan",
+        "insee_dep": "40",
+        "insee_reg": "75",
+        "siren_epci": "244000808"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.4902, 43.8996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "45208",
+        "id_acv": "acv-137",
+        "lib_acv": "Montargis",
+        "date_signature": "12/10/2018",
+        "actions_en_cours": 6,
+        "actions_livrees": 23,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Montargis",
+        "insee_dep": "45",
+        "insee_reg": "24",
+        "siren_epci": "244500203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.7348, 47.9972]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "82121",
+        "id_acv": "acv-138",
+        "lib_acv": "Montauban",
+        "date_signature": "09/07/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 28,
+        "lib_reg": "Occitanie",
+        "lib_com": "Montauban",
+        "insee_dep": "82",
+        "insee_reg": "76",
+        "siren_epci": "248200099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.3643, 44.0222]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "25388",
+        "id_acv": "acv-139",
+        "lib_acv": "MontbÃ©liard",
+        "date_signature": "29/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Montbéliard",
+        "insee_dep": "25",
+        "insee_reg": "27",
+        "siren_epci": "200065647"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.7919, 47.5158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "42147",
+        "id_acv": "acv-140",
+        "lib_acv": "Montbrison",
+        "date_signature": "26/09/2018",
+        "actions_en_cours": 15,
+        "actions_livrees": 34,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Montbrison",
+        "insee_dep": "42",
+        "insee_reg": "84",
+        "siren_epci": "200065886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.0721, 45.6011]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "71306",
+        "id_acv": "acv-141",
+        "lib_acv": "Montceau-les-Mines",
+        "date_signature": "07/12/2018",
+        "actions_en_cours": 2,
+        "actions_livrees": 7,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Montceau-les-Mines",
+        "insee_dep": "71",
+        "insee_reg": "27",
+        "siren_epci": "247100290"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.3537, 46.6758]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "26198",
+        "id_acv": "acv-142",
+        "lib_acv": "MontÃ©limar",
+        "date_signature": "25/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Montélimar",
+        "insee_dep": "26",
+        "insee_reg": "84",
+        "siren_epci": "200040459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.7489, 44.554]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "77305",
+        "id_acv": "acv-143",
+        "lib_acv": "Montereau-Fault-Yonne",
+        "date_signature": "09/10/2018",
+        "actions_en_cours": 4,
+        "actions_livrees": 18,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Montereau-Fault-Yonne",
+        "insee_dep": "77",
+        "insee_reg": "11",
+        "siren_epci": "247700107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.9619, 48.3899]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "03185",
+        "id_acv": "acv-144",
+        "lib_acv": "MontluÃ§on",
+        "date_signature": "29/10/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 6,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Montluçon",
+        "insee_dep": "03",
+        "insee_reg": "84",
+        "siren_epci": "200071082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6042, 46.3388]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "29151",
+        "id_acv": "acv-145",
+        "lib_acv": "Morlaix",
+        "date_signature": "21/09/2018",
+        "actions_en_cours": 41,
+        "actions_livrees": 11,
+        "lib_reg": "Bretagne",
+        "lib_com": "Morlaix",
+        "insee_dep": "29",
+        "insee_reg": "53",
+        "siren_epci": "242900835"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8204, 48.6002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "03190",
+        "id_acv": "acv-146",
+        "lib_acv": "Moulins",
+        "date_signature": "29/10/2018",
+        "actions_en_cours": 6,
+        "actions_livrees": 9,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Moulins",
+        "insee_dep": "03",
+        "insee_reg": "84",
+        "siren_epci": "200071140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.3267, 46.5622]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "11262",
+        "id_acv": "acv-147",
+        "lib_acv": "Narbonne",
+        "date_signature": "26/09/2018",
+        "actions_en_cours": 11,
+        "actions_livrees": 7,
+        "lib_reg": "Occitanie",
+        "lib_com": "Narbonne",
+        "insee_dep": "11",
+        "insee_reg": "76",
+        "siren_epci": "241100593"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.02, 43.165]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "77333",
+        "id_acv": "acv-148",
+        "lib_acv": "Nemours",
+        "date_signature": "16/10/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 14,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Nemours",
+        "insee_dep": "77",
+        "insee_reg": "11",
+        "siren_epci": "200023240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.7099, 48.2601]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "58194",
+        "id_acv": "acv-149",
+        "lib_acv": "Nevers",
+        "date_signature": "19/11/2018",
+        "actions_en_cours": 31,
+        "actions_livrees": 10,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Nevers",
+        "insee_dep": "58",
+        "insee_reg": "27",
+        "siren_epci": "245804406"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.1573, 46.9882]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "79191",
+        "id_acv": "acv-150",
+        "lib_acv": "Niort",
+        "date_signature": "16/07/2018",
+        "actions_en_cours": 13,
+        "actions_livrees": 21,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Niort",
+        "insee_dep": "79",
+        "insee_reg": "75",
+        "siren_epci": "200041317"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.4648, 46.3286]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "28280",
+        "id_acv": "acv-151",
+        "lib_acv": "Nogent-le-Rotrou",
+        "date_signature": "13/07/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Nogent-le-Rotrou",
+        "insee_dep": "28",
+        "insee_reg": "24",
+        "siren_epci": "200006971"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.8042, 48.3175]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "01283",
+        "id_acv": "acv-152",
+        "lib_acv": "Oyonnax",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 10,
+        "actions_livrees": 29,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Oyonnax",
+        "insee_dep": "01",
+        "insee_reg": "84",
+        "siren_epci": "200042935"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.6524, 46.261]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "09225",
+        "id_acv": "acv-153",
+        "lib_acv": "Pamiers",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 23,
+        "actions_livrees": 41,
+        "lib_reg": "Occitanie",
+        "lib_com": "Pamiers",
+        "insee_dep": "09",
+        "insee_reg": "76",
+        "siren_epci": "200066231"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.6159, 43.1234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "64445",
+        "id_acv": "acv-154",
+        "lib_acv": "Pau",
+        "date_signature": "25/09/2018",
+        "actions_en_cours": 20,
+        "actions_livrees": 45,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Pau",
+        "insee_dep": "64",
+        "insee_reg": "75",
+        "siren_epci": "200067254"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.35, 43.3205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "24322",
+        "id_acv": "acv-155",
+        "lib_acv": "PÃ©rigueux",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 24,
+        "actions_livrees": 2,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Périgueux",
+        "insee_dep": "24",
+        "insee_reg": "75",
+        "siren_epci": "200040392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.7122, 45.1913]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "66136",
+        "id_acv": "acv-156",
+        "lib_acv": "Perpignan",
+        "date_signature": "26/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Occitanie",
+        "lib_com": "Perpignan",
+        "insee_dep": "66",
+        "insee_reg": "76",
+        "siren_epci": "200027183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.8986, 42.6964]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "45252",
+        "id_acv": "acv-157",
+        "lib_acv": "Pithiviers",
+        "date_signature": "16/10/2018",
+        "actions_en_cours": 13,
+        "actions_livrees": 38,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Pithiviers",
+        "insee_dep": "45",
+        "insee_reg": "24",
+        "siren_epci": "200066280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.249, 48.1794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "78498",
+        "id_acv": "acv-158",
+        "lib_acv": "Poissy",
+        "date_signature": "04/10/2018",
+        "actions_en_cours": 1,
+        "actions_livrees": 7,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Poissy",
+        "insee_dep": "78",
+        "insee_reg": "11",
+        "siren_epci": "200059889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0285, 48.9241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "86194",
+        "id_acv": "acv-159",
+        "lib_acv": "Poitiers",
+        "date_signature": "01/10/2018",
+        "actions_en_cours": 9,
+        "actions_livrees": 7,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Poitiers",
+        "insee_dep": "86",
+        "insee_reg": "75",
+        "siren_epci": "200069854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.3596, 46.5831]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "56178",
+        "id_acv": "acv-160",
+        "lib_acv": "Pontivy",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 9,
+        "actions_livrees": 10,
+        "lib_reg": "Bretagne",
+        "lib_com": "Pontivy",
+        "insee_dep": "56",
+        "insee_reg": "53",
+        "siren_epci": "245614433"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.9712, 48.0734]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "07186",
+        "id_acv": "acv-161",
+        "lib_acv": "Privas",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 1,
+        "actions_livrees": 36,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Privas",
+        "insee_dep": "07",
+        "insee_reg": "84",
+        "siren_epci": "200071413"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.5937, 44.7226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "29232",
+        "id_acv": "acv-162",
+        "lib_acv": "Quimper",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 3,
+        "actions_livrees": 14,
+        "lib_reg": "Bretagne",
+        "lib_com": "Quimper",
+        "insee_dep": "29",
+        "insee_reg": "53",
+        "siren_epci": "200068120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.0911, 47.9969]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "35236",
+        "id_acv": "acv-164",
+        "lib_acv": "Redon",
+        "date_signature": "24/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Bretagne",
+        "lib_com": "Redon",
+        "insee_dep": "35",
+        "insee_reg": "53",
+        "siren_epci": "243500741"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.0803, 47.661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "31451",
+        "id_acv": "acv-165",
+        "lib_acv": "Revel",
+        "date_signature": "14/09/2018",
+        "actions_en_cours": 10,
+        "actions_livrees": 12,
+        "lib_reg": "Occitanie",
+        "lib_com": "Revel",
+        "insee_dep": "31",
+        "insee_reg": "76",
+        "siren_epci": "243100567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.996, 43.4648]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "63300",
+        "id_acv": "acv-166",
+        "lib_acv": "Riom",
+        "date_signature": "12/10/2018",
+        "actions_en_cours": 4,
+        "actions_livrees": 2,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Riom",
+        "insee_dep": "63",
+        "insee_reg": "84",
+        "siren_epci": "200070753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.133, 45.894]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "42187",
+        "id_acv": "acv-167",
+        "lib_acv": "Roanne",
+        "date_signature": "26/09/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 8,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Roanne",
+        "insee_dep": "42",
+        "insee_reg": "84",
+        "siren_epci": "200035731"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.0804, 46.0457]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "17299",
+        "id_acv": "acv-168",
+        "lib_acv": "Rochefort",
+        "date_signature": "04/07/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 43,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Rochefort",
+        "insee_dep": "17",
+        "insee_reg": "75",
+        "siren_epci": "200041762"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.9719, 45.9431]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "12202",
+        "id_acv": "acv-169",
+        "lib_acv": "Rodez",
+        "date_signature": "13/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Occitanie",
+        "lib_com": "Rodez",
+        "insee_dep": "12",
+        "insee_reg": "76",
+        "siren_epci": "241200187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5677, 44.3583]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "26057",
+        "id_acv": "acv-170",
+        "lib_acv": "Romans-sur-IsÃ¨re - Bourg de PÃ©age",
+        "date_signature": "18/09/2018",
+        "actions_en_cours": 34,
+        "actions_livrees": 17,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Bourg-de-Péage",
+        "insee_dep": "26",
+        "insee_reg": "84",
+        "siren_epci": "200068781"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.0506, 45.0172]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "26281",
+        "id_acv": "acv-170",
+        "lib_acv": "Romans-sur-IsÃ¨re - Bourg de PÃ©age",
+        "date_signature": "18/09/2018",
+        "actions_en_cours": 34,
+        "actions_livrees": 17,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Romans-sur-Isère",
+        "insee_dep": "26",
+        "insee_reg": "84",
+        "siren_epci": "200068781"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.0383, 45.0548]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "41194",
+        "id_acv": "acv-171",
+        "lib_acv": "Romorantin-Lanthenay",
+        "date_signature": "05/07/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Romorantin-Lanthenay",
+        "insee_dep": "41",
+        "insee_reg": "24",
+        "siren_epci": "200018406"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.7438, 47.3745]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "74225",
+        "id_acv": "acv-172",
+        "lib_acv": "Rumilly",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 1,
+        "actions_livrees": 5,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Rumilly",
+        "insee_dep": "74",
+        "insee_reg": "84",
+        "siren_epci": "247400740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.9404, 45.8555]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97409",
+        "id_acv": "acv-173",
+        "lib_acv": "Saint-AndrÃ©",
+        "date_signature": "15/01/2019",
+        "actions_en_cours": 7,
+        "actions_livrees": 6,
+        "lib_reg": "La Réunion",
+        "lib_com": "Saint-André",
+        "insee_dep": "974",
+        "insee_reg": "04",
+        "siren_epci": "249740093"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.1236, 44.7972]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "57606",
+        "id_acv": "acv-174",
+        "lib_acv": "Saint-Avold",
+        "date_signature": "15/10/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 18,
+        "lib_reg": "Grand Est",
+        "lib_com": "Saint-Avold",
+        "insee_dep": "57",
+        "insee_reg": "44",
+        "siren_epci": "200067502"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.7136, 49.1285]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "22278",
+        "id_acv": "acv-175",
+        "lib_acv": "Saint-Brieuc",
+        "date_signature": "18/09/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 9,
+        "lib_reg": "Bretagne",
+        "lib_com": "Saint-Brieuc",
+        "insee_dep": "22",
+        "insee_reg": "53",
+        "siren_epci": "200069409"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.7628, 48.5139]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "88413",
+        "id_acv": "acv-176",
+        "lib_acv": "Saint-DiÃ©-des-Vosges",
+        "date_signature": "13/07/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 23,
+        "lib_reg": "Grand Est",
+        "lib_com": "Saint-Dié-des-Vosges",
+        "insee_dep": "88",
+        "insee_reg": "44",
+        "siren_epci": "200071066"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.9383, 48.2969]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "52448",
+        "id_acv": "acv-177",
+        "lib_acv": "Saint-Dizier",
+        "date_signature": "08/06/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": 14,
+        "lib_reg": "Grand Est",
+        "lib_com": "Saint-Dizier",
+        "insee_dep": "52",
+        "insee_reg": "44",
+        "siren_epci": "200068666"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.9493, 48.6282]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97412",
+        "id_acv": "acv-178",
+        "lib_acv": "Saint-Joseph",
+        "date_signature": "15/01/2019",
+        "actions_en_cours": 12,
+        "actions_livrees": 19,
+        "lib_reg": "La Réunion",
+        "lib_com": "Saint-Joseph",
+        "insee_dep": "974",
+        "insee_reg": "04",
+        "siren_epci": "249740085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.0764, 44.3307]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97311",
+        "id_acv": "acv-179",
+        "lib_acv": "Saint-Laurent-du-Maroni",
+        "date_signature": "17/10/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 6,
+        "lib_reg": "Guyane",
+        "lib_com": "Saint-Laurent-du-Maroni",
+        "insee_dep": "973",
+        "insee_reg": "03",
+        "siren_epci": "249730037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5342, 42.926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "50502",
+        "id_acv": "acv-180",
+        "lib_acv": "Saint-LÃ´",
+        "date_signature": "26/09/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 35,
+        "lib_reg": "Normandie",
+        "lib_com": "Saint-Lô",
+        "insee_dep": "50",
+        "insee_reg": "28",
+        "siren_epci": "200066389"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.0778, 49.1097]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "35288",
+        "id_acv": "acv-181",
+        "lib_acv": "Saint-Malo",
+        "date_signature": "21/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Bretagne",
+        "lib_com": "Saint-Malo",
+        "insee_dep": "35",
+        "insee_reg": "53",
+        "siren_epci": "243500782"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.98, 48.6399]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "91570",
+        "id_acv": "acv-182",
+        "lib_acv": "Saint-Michel-sur-Orge",
+        "date_signature": "14/06/2018",
+        "actions_en_cours": 13,
+        "actions_livrees": 2,
+        "lib_reg": "Île-de-France",
+        "lib_com": "Saint-Michel-sur-Orge",
+        "insee_dep": "91",
+        "insee_reg": "11",
+        "siren_epci": "200057859"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3109, 48.6326]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "44184",
+        "id_acv": "acv-183",
+        "lib_acv": "Saint-Nazaire",
+        "date_signature": "11/10/2018",
+        "actions_en_cours": 22,
+        "actions_livrees": 9,
+        "lib_reg": "Pays de la Loire",
+        "lib_com": "Saint-Nazaire",
+        "insee_dep": "44",
+        "insee_reg": "52",
+        "siren_epci": "244400644"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.2512, 47.2802]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "62765",
+        "id_acv": "acv-184",
+        "lib_acv": "Saint-Omer",
+        "date_signature": "02/07/2018",
+        "actions_en_cours": 4,
+        "actions_livrees": 9,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Saint-Omer",
+        "insee_dep": "62",
+        "insee_reg": "32",
+        "siren_epci": "200069037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2642, 50.7676]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97416",
+        "id_acv": "acv-185",
+        "lib_acv": "Saint-Pierre",
+        "date_signature": "15/01/2019",
+        "actions_en_cours": 6,
+        "actions_livrees": 4,
+        "lib_reg": "La Réunion",
+        "lib_com": "Saint-Pierre",
+        "insee_dep": "974",
+        "insee_reg": "04",
+        "siren_epci": "249740077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.3385, 44.3083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "02691",
+        "id_acv": "acv-186",
+        "lib_acv": "Saint-Quentin",
+        "date_signature": "29/06/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 20,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Saint-Quentin",
+        "insee_dep": "02",
+        "insee_reg": "32",
+        "siren_epci": "200071892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.2775, 49.8478]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "17415",
+        "id_acv": "acv-187",
+        "lib_acv": "Saintes",
+        "date_signature": "25/09/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 8,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Saintes",
+        "insee_dep": "17",
+        "insee_reg": "75",
+        "siren_epci": "200036473"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.65, 45.742]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "57630",
+        "id_acv": "acv-188",
+        "lib_acv": "Sarrebourg",
+        "date_signature": "15/10/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 8,
+        "lib_reg": "Grand Est",
+        "lib_com": "Sarrebourg",
+        "insee_dep": "57",
+        "insee_reg": "44",
+        "siren_epci": "200068146"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.0467, 48.7381]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "57631",
+        "id_acv": "acv-189",
+        "lib_acv": "Sarreguemines",
+        "date_signature": "15/10/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 12,
+        "lib_reg": "Grand Est",
+        "lib_com": "Sarreguemines",
+        "insee_dep": "57",
+        "insee_reg": "44",
+        "siren_epci": "200070746"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.0696, 49.109]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "78586",
+        "id_acv": "acv-190",
+        "lib_acv": "Sartrouville",
+        "date_signature": "02/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Île-de-France",
+        "lib_com": "Sartrouville",
+        "insee_dep": "78",
+        "insee_reg": "11",
+        "siren_epci": "200058519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1749, 48.9401]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "49328",
+        "id_acv": "acv-191",
+        "lib_acv": "Saumur",
+        "date_signature": "11/06/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 20,
+        "lib_reg": "Pays de la Loire",
+        "lib_com": "Saumur",
+        "insee_dep": "49",
+        "insee_reg": "52",
+        "siren_epci": "200071876"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.0838, 47.2677]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "67437",
+        "id_acv": "acv-192",
+        "lib_acv": "Saverne",
+        "date_signature": "19/09/2018",
+        "actions_en_cours": 10,
+        "actions_livrees": 34,
+        "lib_reg": "Grand Est",
+        "lib_com": "Saverne",
+        "insee_dep": "67",
+        "insee_reg": "44",
+        "siren_epci": "200068112"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.3417, 48.7397]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "08409",
+        "id_acv": "acv-193",
+        "lib_acv": "Sedan",
+        "date_signature": "27/07/2018",
+        "actions_en_cours": 2,
+        "actions_livrees": 15,
+        "lib_reg": "Grand Est",
+        "lib_com": "Sedan",
+        "insee_dep": "08",
+        "insee_reg": "44",
+        "siren_epci": "200041630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.9295, 49.6966]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "60612",
+        "id_acv": "acv-194",
+        "lib_acv": "Senlis",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Senlis",
+        "insee_dep": "60",
+        "insee_reg": "32",
+        "siren_epci": "200066975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5858, 49.2116]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "89387",
+        "id_acv": "acv-195",
+        "lib_acv": "Sens",
+        "date_signature": "30/09/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 35,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Sens",
+        "insee_dep": "89",
+        "insee_reg": "27",
+        "siren_epci": "248900334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.2979, 48.1959]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "34301",
+        "id_acv": "acv-196",
+        "lib_acv": "SÃ¨te",
+        "date_signature": "13/10/2018",
+        "actions_en_cours": 5,
+        "actions_livrees": 8,
+        "lib_reg": "Occitanie",
+        "lib_com": "Sète",
+        "insee_dep": "34",
+        "insee_reg": "76",
+        "siren_epci": "200066355"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.6441, 43.3915]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "02722",
+        "id_acv": "acv-197",
+        "lib_acv": "Soissons",
+        "date_signature": "21/09/2018",
+        "actions_en_cours": 18,
+        "actions_livrees": 7,
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Soissons",
+        "insee_dep": "02",
+        "insee_reg": "32",
+        "siren_epci": "240200477"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.3254, 49.3793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "69243",
+        "id_acv": "acv-198",
+        "lib_acv": "Tarare",
+        "date_signature": "25/09/2018",
+        "actions_en_cours": 3,
+        "actions_livrees": 7,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Tarare",
+        "insee_dep": "69",
+        "insee_reg": "84",
+        "siren_epci": "200040566"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.4238, 45.9036]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "13108",
+        "id_acv": "acv-199",
+        "lib_acv": "Tarascon",
+        "date_signature": "01/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Tarascon",
+        "insee_dep": "13",
+        "insee_reg": "93",
+        "siren_epci": "241300417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.6861, 43.7942]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "65440",
+        "id_acv": "acv-200",
+        "lib_acv": "Tarbes",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 9,
+        "actions_livrees": 21,
+        "lib_reg": "Occitanie",
+        "lib_com": "Tarbes",
+        "insee_dep": "65",
+        "insee_reg": "76",
+        "siren_epci": "200069300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.0659, 43.2344]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "63430",
+        "id_acv": "acv-201",
+        "lib_acv": "Thiers",
+        "date_signature": "12/10/2018",
+        "actions_en_cours": 6,
+        "actions_livrees": 9,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Thiers",
+        "insee_dep": "63",
+        "insee_reg": "84",
+        "siren_epci": "200070712"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.5395, 45.8621]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "57672",
+        "id_acv": "acv-202",
+        "lib_acv": "Thionville",
+        "date_signature": "29/06/2018",
+        "actions_en_cours": 8,
+        "actions_livrees": 33,
+        "lib_reg": "Grand Est",
+        "lib_com": "Thionville",
+        "insee_dep": "57",
+        "insee_reg": "44",
+        "siren_epci": "245701362"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.1165, 49.3719]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "54528",
+        "id_acv": "acv-203",
+        "lib_acv": "Toul",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 42,
+        "actions_livrees": 46,
+        "lib_reg": "Grand Est",
+        "lib_com": "Toul",
+        "insee_dep": "54",
+        "insee_reg": "44",
+        "siren_epci": "200070563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.894, 48.686]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "78621",
+        "id_acv": "acv-204",
+        "lib_acv": "Trappes",
+        "date_signature": "09/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Île-de-France",
+        "lib_com": "Trappes",
+        "insee_dep": "78",
+        "insee_reg": "11",
+        "siren_epci": "200058782"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.9936, 48.7754]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "10387",
+        "id_acv": "acv-205",
+        "lib_acv": "Troyes",
+        "date_signature": "27/06/2018",
+        "actions_en_cours": 26,
+        "actions_livrees": 21,
+        "lib_reg": "Grand Est",
+        "lib_com": "Troyes",
+        "insee_dep": "10",
+        "insee_reg": "44",
+        "siren_epci": "200069250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.0788, 48.2971]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "19272",
+        "id_acv": "acv-206",
+        "lib_acv": "Tulle",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 38,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Tulle",
+        "insee_dep": "19",
+        "insee_reg": "75",
+        "siren_epci": "241927201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.7635, 45.2733]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "26362",
+        "id_acv": "acv-207",
+        "lib_acv": "Valence",
+        "date_signature": "21/09/2018",
+        "actions_en_cours": 2,
+        "actions_livrees": 48,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Valence",
+        "insee_dep": "26",
+        "insee_reg": "84",
+        "siren_epci": "200068781"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.9129, 44.9223]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "59606",
+        "id_acv": "acv-208",
+        "lib_acv": "Valenciennes",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Valenciennes",
+        "insee_dep": "59",
+        "insee_reg": "32",
+        "siren_epci": "245901160"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.5158, 50.3587]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "06155",
+        "id_acv": "acv-209",
+        "lib_acv": "Vallauris",
+        "date_signature": "18/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Provence-Alpes-Côte d'Azur",
+        "lib_com": "Vallauris",
+        "insee_dep": "06",
+        "insee_reg": "93",
+        "siren_epci": "240600585"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.0578, 43.5767]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "56260",
+        "id_acv": "acv-210",
+        "lib_acv": "Vannes",
+        "date_signature": "28/09/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Bretagne",
+        "lib_com": "Vannes",
+        "insee_dep": "56",
+        "insee_reg": "53",
+        "siren_epci": "200067932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.7569, 47.6596]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "55545",
+        "id_acv": "acv-211",
+        "lib_acv": "Verdun",
+        "date_signature": "11/07/2018",
+        "actions_en_cours": 4,
+        "actions_livrees": 8,
+        "lib_reg": "Grand Est",
+        "lib_com": "Verdun",
+        "insee_dep": "55",
+        "insee_reg": "44",
+        "siren_epci": "200049187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.3626, 49.1457]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "27681",
+        "id_acv": "acv-212",
+        "lib_acv": "Vernon",
+        "date_signature": "02/07/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Normandie",
+        "lib_com": "Vernon",
+        "insee_dep": "27",
+        "insee_reg": "28",
+        "siren_epci": "200072312"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.4849, 49.088]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "70550",
+        "id_acv": "acv-213",
+        "lib_acv": "Vesoul",
+        "date_signature": "25/09/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 17,
+        "lib_reg": "Bourgogne-Franche-Comté",
+        "lib_com": "Vesoul",
+        "insee_dep": "70",
+        "insee_reg": "27",
+        "siren_epci": "247000011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.1548, 47.6318]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "03310",
+        "id_acv": "acv-214",
+        "lib_acv": "Vichy",
+        "date_signature": "10/10/2018",
+        "actions_en_cours": 14,
+        "actions_livrees": 28,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Vichy",
+        "insee_dep": "03",
+        "insee_reg": "84",
+        "siren_epci": "200071363"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.4248, 46.1297]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "38544",
+        "id_acv": "acv-215",
+        "lib_acv": "Vienne",
+        "date_signature": "21/11/2018",
+        "actions_en_cours": 6,
+        "actions_livrees": 17,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Vienne",
+        "insee_dep": "38",
+        "insee_reg": "84",
+        "siren_epci": "200077014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.8813, 45.5206]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "18279",
+        "id_acv": "acv-216",
+        "lib_acv": "Vierzon",
+        "date_signature": "05/07/2018",
+        "actions_en_cours": 4,
+        "actions_livrees": 15,
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Vierzon",
+        "insee_dep": "18",
+        "insee_reg": "24",
+        "siren_epci": "200090561"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0789, 47.2369]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "12300",
+        "id_acv": "acv-217",
+        "lib_acv": "Villefranche-de-Rouergue",
+        "date_signature": "13/10/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Occitanie",
+        "lib_com": "Villefranche-de-Rouergue",
+        "insee_dep": "12",
+        "insee_reg": "76",
+        "siren_epci": "200069383"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0316, 44.3503]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "47323",
+        "id_acv": "acv-218",
+        "lib_acv": "Villeneuve-sur-Lot",
+        "date_signature": "26/09/2018",
+        "actions_en_cours": 8,
+        "actions_livrees": 11,
+        "lib_reg": "Nouvelle-Aquitaine",
+        "lib_com": "Villeneuve-sur-Lot",
+        "insee_dep": "47",
+        "insee_reg": "75",
+        "siren_epci": "200023307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.7423, 44.4248]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "14762",
+        "id_acv": "acv-219",
+        "lib_acv": "Vire Normandie",
+        "date_signature": "19/09/2018",
+        "actions_en_cours": 12,
+        "actions_livrees": 29,
+        "lib_reg": "Normandie",
+        "lib_com": "Vire Normandie",
+        "insee_dep": "14",
+        "insee_reg": "28",
+        "siren_epci": "200068799"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.873, 48.8186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "35360",
+        "id_acv": "acv-220",
+        "lib_acv": "VitrÃ©",
+        "date_signature": "27/09/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 16,
+        "lib_reg": "Bretagne",
+        "lib_com": "Vitré",
+        "insee_dep": "35",
+        "insee_reg": "53",
+        "siren_epci": "200039022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.1934, 48.1146]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "51649",
+        "id_acv": "acv-221",
+        "lib_acv": "Vitry-le-FranÃ§ois",
+        "date_signature": "16/11/2018",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Grand Est",
+        "lib_com": "Vitry-le-François",
+        "insee_dep": "51",
+        "insee_reg": "44",
+        "siren_epci": "200034718"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.5924, 48.7276]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "38563",
+        "id_acv": "acv-222",
+        "lib_acv": "Voiron",
+        "date_signature": "09/11/2018",
+        "actions_en_cours": 7,
+        "actions_livrees": 4,
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Voiron",
+        "insee_dep": "38",
+        "insee_reg": "84",
+        "siren_epci": "243800984"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.5832, 45.3792]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "82033",
+        "id_acv": "acv-223",
+        "lib_acv": "Castelsarrasin",
+        "date_signature": "18/01/2024",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Castelsarrasin",
+        "insee_dep": "82",
+        "insee_reg": "76",
+        "siren_epci": "200066322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.1235, 44.0487]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "28088",
+        "id_acv": "acv-224",
+        "lib_acv": "ChÃ¢teaudun",
+        "date_signature": "01/04/2024",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Centre-Val de Loire",
+        "lib_com": "Châteaudun",
+        "insee_dep": "28",
+        "insee_reg": "24",
+        "siren_epci": "200069961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.3255, 48.0769]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "59295",
+        "id_acv": "acv-225",
+        "lib_acv": "Hazebrouck",
+        "date_signature": "01/02/2024",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Hazebrouck",
+        "insee_dep": "59",
+        "insee_reg": "32",
+        "siren_epci": "200040947"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5388, 50.7262]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "95500",
+        "id_acv": "acv-226",
+        "lib_acv": "Pontoise",
+        "date_signature": "28/12/2023",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Île-de-France",
+        "lib_com": "Pontoise",
+        "insee_dep": "95",
+        "insee_reg": "11",
+        "siren_epci": "249500109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0949, 49.0513]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "31483",
+        "id_acv": "acv-227",
+        "lib_acv": "Saint-Gaudens",
+        "date_signature": "",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Occitanie",
+        "lib_com": "Saint-Gaudens",
+        "insee_dep": "31",
+        "insee_reg": "76",
+        "siren_epci": "200072643"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.7267, 43.1199]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "67462",
+        "id_acv": "acv-228",
+        "lib_acv": "SÃ©lestat",
+        "date_signature": "29/01/2024",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Grand Est",
+        "lib_com": "Sélestat",
+        "insee_dep": "67",
+        "insee_reg": "44",
+        "siren_epci": "246700967"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.4623, 48.2484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "59569",
+        "id_acv": "acv-229",
+        "lib_acv": "Sin-le-Noble",
+        "date_signature": "",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Hauts-de-France",
+        "lib_com": "Sin-le-Noble",
+        "insee_dep": "59",
+        "insee_reg": "32",
+        "siren_epci": "200044618"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.1204, 50.3673]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "97414",
+        "id_acv": "acv-230",
+        "lib_acv": "Saint-Louis-de-la-RÃ©union",
+        "date_signature": "01/05/2024",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "La Réunion",
+        "lib_com": "Saint-Louis",
+        "insee_dep": "974",
+        "insee_reg": "04",
+        "siren_epci": "249740077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.4786, 44.4081]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "91103",
+        "id_acv": "acv-231",
+        "lib_acv": "BrÃ©tigny-sur-Orge",
+        "date_signature": "",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Île-de-France",
+        "lib_com": "Brétigny-sur-Orge",
+        "insee_dep": "91",
+        "insee_reg": "11",
+        "siren_epci": "200057859"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3024, 48.6033]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "34108",
+        "id_acv": "acv-232",
+        "lib_acv": "Frontignan",
+        "date_signature": "",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Occitanie",
+        "lib_com": "Frontignan",
+        "insee_dep": "34",
+        "insee_reg": "76",
+        "siren_epci": "200066355"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.7494, 43.448]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "insee_com": "74012",
+        "id_acv": "acv-233",
+        "lib_acv": "Annemasse",
+        "date_signature": "",
+        "actions_en_cours": "NA",
+        "actions_livrees": "NA",
+        "lib_reg": "Auvergne-Rhône-Alpes",
+        "lib_com": "Annemasse",
+        "insee_dep": "74",
+        "insee_reg": "84",
+        "siren_epci": "200011773"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.2429, 46.191]
+      }
+    }
+  ]
 }
